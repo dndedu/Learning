@@ -1,0 +1,15 @@
+F:\Workspace\VS Code\Learning\CsharpProjects\TestProject\bin\Debug\net7.0\TestProject.exe
+F:\Workspace\VS Code\Learning\CsharpProjects\TestProject\bin\Debug\net7.0\TestProject.deps.json
+F:\Workspace\VS Code\Learning\CsharpProjects\TestProject\bin\Debug\net7.0\TestProject.runtimeconfig.json
+F:\Workspace\VS Code\Learning\CsharpProjects\TestProject\bin\Debug\net7.0\TestProject.dll
+F:\Workspace\VS Code\Learning\CsharpProjects\TestProject\bin\Debug\net7.0\TestProject.pdb
+F:\Workspace\VS Code\Learning\CsharpProjects\TestProject\obj\Debug\net7.0\TestProject.csproj.AssemblyReference.cache
+F:\Workspace\VS Code\Learning\CsharpProjects\TestProject\obj\Debug\net7.0\TestProject.GeneratedMSBuildEditorConfig.editorconfig
+F:\Workspace\VS Code\Learning\CsharpProjects\TestProject\obj\Debug\net7.0\TestProject.AssemblyInfoInputs.cache
+F:\Workspace\VS Code\Learning\CsharpProjects\TestProject\obj\Debug\net7.0\TestProject.AssemblyInfo.cs
+F:\Workspace\VS Code\Learning\CsharpProjects\TestProject\obj\Debug\net7.0\TestProject.csproj.CoreCompileInputs.cache
+F:\Workspace\VS Code\Learning\CsharpProjects\TestProject\obj\Debug\net7.0\TestProject.dll
+F:\Workspace\VS Code\Learning\CsharpProjects\TestProject\obj\Debug\net7.0\refint\TestProject.dll
+F:\Workspace\VS Code\Learning\CsharpProjects\TestProject\obj\Debug\net7.0\TestProject.pdb
+F:\Workspace\VS Code\Learning\CsharpProjects\TestProject\obj\Debug\net7.0\TestProject.genruntimeconfig.cache
+F:\Workspace\VS Code\Learning\CsharpProjects\TestProject\obj\Debug\net7.0\ref\TestProject.dll
