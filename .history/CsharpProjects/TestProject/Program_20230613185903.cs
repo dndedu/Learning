@@ -13,7 +13,7 @@ for (int i = 0; i < orderIDs.Length; i++)
     orderIDs[i] = prefix + suffix;
 }
 // Print out each orderID
-foreach (var orderID in orderIDs)
+foreach (string orderID in orderIDs)
 {
     Console.WriteLine(orderID);
 }
