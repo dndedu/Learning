@@ -18,6 +18,5 @@ foreach (char i in reversedMessage)
 }
 
 string new_message = new String(reversedMessage);
-
 Console.WriteLine(new_message);
-Console.WriteLine($"'o' appears {letterCount} times.");
+Console.WriteLine($"'o' appears {x} times.");

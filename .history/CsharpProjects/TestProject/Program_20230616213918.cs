@@ -1,23 +1,19 @@
-﻿/*
-    reverse message
-    count number of specified chars
-    print both results
-*/
-
+﻿//reverse string to charArray
 string message = "The quick brown fox jumps over the lazy dog.";
 char[] reversedMessage = message.ToCharArray();
 Array.Reverse(reversedMessage);
 
-int letterCount = 0;
+//count all o-chars
+int x = 0;
 foreach (char i in reversedMessage)
 {
     if (i == 'o')
     {
-        letterCount++;
+        x++;
     }
 }
 
+//show result
 string new_message = new String(reversedMessage);
-
 Console.WriteLine(new_message);
-Console.WriteLine($"'o' appears {letterCount} times.");
+Console.WriteLine($"'o' appears {x} times.");
