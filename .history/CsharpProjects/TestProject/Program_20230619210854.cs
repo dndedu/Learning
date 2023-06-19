@@ -54,3 +54,10 @@ switch (product[2])
 }
 
 Console.WriteLine($"Product: {size} {color} {type}");
+
+switch (product)
+{
+    case product[0] == "01":
+        Console.WriteLine("WTF");
+        break;
+}

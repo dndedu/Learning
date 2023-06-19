@@ -21,36 +21,36 @@ switch (product[0])
         break;
     default:
         type = "Other";
-        break;
 }
 
-switch (product[1])
+if (product[1] == "BL")
 {
-    case "BL":
-        color = "Black";
-        break;
-    case "MN":
-        color = "Maroon";
-        break;
-    default:
-        color = "White";
-        break;
+    color = "Black";
+}
+else if (product[1] == "MN")
+{
+    color = "Maroon";
+}
+else
+{
+    color = "White";
 }
 
-switch (product[2])
+if (product[2] == "S")
 {
-    case "S":
-        size = "Small";
-        break;
-    case "M":
-        size = "Medium";
-        break;
-    case "L":
-        size = "Large";
-        break;
-    default:
-        size = "One Size Fits All";
-        break;
+    size = "Small";
+}
+else if (product[2] == "M")
+{
+    size = "Medium";
+}
+else if (product[2] == "L")
+{
+    size = "Large";
+}
+else
+{
+    size = "One Size Fits All";
 }
 
 Console.WriteLine($"Product: {size} {color} {type}");
