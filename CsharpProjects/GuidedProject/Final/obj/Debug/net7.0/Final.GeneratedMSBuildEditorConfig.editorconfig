@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 is_global = true
 build_property.TargetFramework = net7.0
 build_property.TargetPlatformMinVersion = 
@@ -9,3 +10,16 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Final
 build_property.ProjectDir = h:\0.1Workspace\VisualStudioCode\Learning\CsharpProjects\GuidedProject\Final\
+=======
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Final
+build_property.ProjectDir = f:\Workspace\VS Code\Learning\CsharpProjects\GuidedProject\Final\
+>>>>>>> 11e525b726eefdd65b5cc65a12c0e1f01b14ac5b
