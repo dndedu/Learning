@@ -1,0 +1,5 @@
+F:\Workspace\VS Code\Learning\CsharpProjects\GuidedProject\Final\obj\Debug\net7.0\Final.csproj.AssemblyReference.cache
+F:\Workspace\VS Code\Learning\CsharpProjects\GuidedProject\Final\obj\Debug\net7.0\Final.GeneratedMSBuildEditorConfig.editorconfig
+F:\Workspace\VS Code\Learning\CsharpProjects\GuidedProject\Final\obj\Debug\net7.0\Final.AssemblyInfoInputs.cache
+F:\Workspace\VS Code\Learning\CsharpProjects\GuidedProject\Final\obj\Debug\net7.0\Final.AssemblyInfo.cs
+F:\Workspace\VS Code\Learning\CsharpProjects\GuidedProject\Final\obj\Debug\net7.0\Final.csproj.CoreCompileInputs.cache
