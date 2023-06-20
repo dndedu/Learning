@@ -1,0 +1,31 @@
+﻿using System;
+
+int[][] a = new int[2][2] { { 1, 2 }, { 3, 4 } };
+
+int[,] b = {
+    {1, 2},
+    {3, 4}
+};
+
+// int[] c = { 1, 2, 3, 4 };
+
+//x  y   breite := 2 (2x2 grid)
+// c[0, 0] == 0; // i = breite*y + x = 2*0 + 0 = 0
+// c[1, 0] == 2; // i = breite*y + x = 2*0 + 1 = 1
+// c[0, 1] == 3; // i = breite*y + x = 2*1 + 0 = 2
+// c[1, 1] == 3; // i = breite*y + x = 2*1 + 1 = 3
+
+foreach (int c in b)
+{
+    Console.WriteLine(c);
+}
+
+// var collection = a;
+
+foreach (int[] element in a)
+{
+    foreach (int r in element)
+    {
+        Console.WriteLine(r);
+    }
+}
