@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\0.1Workspace\\VisualStudioCode\\Learning\\CsharpProjects\\TestProject\\TestProject.csproj": {}
+    "H:\\0.1Workspace\\VisualStudioCode\\Learning-1\\CsharpProjects\\TestProject\\TestProject.csproj": {}
   },
   "projects": {
-    "H:\\0.1Workspace\\VisualStudioCode\\Learning\\CsharpProjects\\TestProject\\TestProject.csproj": {
+    "H:\\0.1Workspace\\VisualStudioCode\\Learning-1\\CsharpProjects\\TestProject\\TestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\0.1Workspace\\VisualStudioCode\\Learning\\CsharpProjects\\TestProject\\TestProject.csproj",
+        "projectUniqueName": "H:\\0.1Workspace\\VisualStudioCode\\Learning-1\\CsharpProjects\\TestProject\\TestProject.csproj",
         "projectName": "TestProject",
-        "projectPath": "H:\\0.1Workspace\\VisualStudioCode\\Learning\\CsharpProjects\\TestProject\\TestProject.csproj",
+        "projectPath": "H:\\0.1Workspace\\VisualStudioCode\\Learning-1\\CsharpProjects\\TestProject\\TestProject.csproj",
         "packagesPath": "C:\\Users\\dadom002\\.nuget\\packages\\",
-        "outputPath": "H:\\0.1Workspace\\VisualStudioCode\\Learning\\CsharpProjects\\TestProject\\obj\\",
+        "outputPath": "H:\\0.1Workspace\\VisualStudioCode\\Learning-1\\CsharpProjects\\TestProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dadom002\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -50,7 +50,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.105\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.107\\RuntimeIdentifierGraph.json"
         }
       }
     }

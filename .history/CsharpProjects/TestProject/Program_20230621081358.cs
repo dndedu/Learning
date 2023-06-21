@@ -1,6 +1,6 @@
 ﻿//https://learn.microsoft.com/en-us/training/modules/csharp-do-while/5-exercise-challenge-differentiate-while-do-statements
 
-/* //1 own solution 
+/* //own solution 
 Console.WriteLine("Enter a number between 5 and 10 (incl.)");
 string userInput;
 Boolean enterNewNumber = true;
@@ -28,7 +28,7 @@ do
 
 Console.WriteLine($"Input value {userInput} has been accepted."); */
 
-/* //1 MS-Solution with string?, explicit null-handling, but esp. int.TryParse, which haven't been introduced in the course
+/* //MS-Solution with null-handling, but esp. int.TryParse, which haven't been introduced in the course yet
 string? readResult;
 string valueEntered = "";
 int numValue = 0;
@@ -66,22 +66,21 @@ readResult = Console.ReadLine(); */
 
 
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-
-/* //2 own solution
+/* //own solution
 Console.WriteLine("Enter one of the following role names: Administrator, Manager, or User");
 string userInput;
-string userInput_modified;
+string userInput_original;
 Boolean askForNewUserInput = true;
 
 do
 {
-    userInput = Console.ReadLine();
-    userInput_modified = userInput.Trim().ToLower();
+    userInput = Console.ReadLine().Trim().ToLower();
 
-    switch (userInput_modified)
+    // userInput = Console.ReadLine();
+    // userInput_original = String.Copy(userInput);
+    // userInput = userInput.Trim().ToLower();
+
+    switch (userInput)
     {
         case "administrator":
         case "manager":
@@ -97,41 +96,9 @@ do
 
 Console.WriteLine($"Input value {userInput} has been accepted."); */
 
-/* //2 MS-solution; note: 
-string? readResult;
-string roleName = "";
-bool validEntry = false;
-
-do
-{
-    Console.WriteLine("Enter your role name (Administrator, Manager, or User)");
-    readResult = Console.ReadLine();
-    if (readResult != null)
-    {
-        roleName = readResult.Trim();
-    }
-
-    if (roleName.ToLower() == "administrator" || roleName.ToLower() == "manager" || roleName.ToLower() == "user")
-    {
-        validEntry = true;
-    }
-    else
-    {
-        Console.Write($"The role name that you entered, \"{roleName}\" is not valid. ");
-    }
-
-} while (validEntry == false);
-
-Console.WriteLine($"Your input value ({roleName}) has been accepted.");
-readResult = Console.ReadLine(); */
 
 
-
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-
-/* //3 own solution
+/* //own solution
 string[] myStrings = new string[2] { "I like pizza. I like roast chicken. I like salad", "I like all three of the menu choices" };
 int periodLocation;
 string myString;
@@ -164,42 +131,3 @@ for (int i = 0; i < myStrings.Length; i++)
         Console.ReadLine();
     } while (!noMoreSentence);
 }; */
-
-
-/* //3 MS-solution
-string[] myStrings = new string[2] { "I like pizza. I like roast chicken. I like salad", "I like all three of the menu choices" };
-int stringsCount = myStrings.Length;
-
-string myString = "";
-int periodLocation = 0;
-
-for (int i = 0; i < stringsCount; i++)
-{
-    myString = myStrings[i];
-    periodLocation = myString.IndexOf(".");
-
-    string mySentence;
-
-    // extract sentences from each string and display them one at a time
-    while (periodLocation != -1)
-    {
-
-        // first sentence is the string value to the left of the period location
-        mySentence = myString.Remove(periodLocation);
-
-        // the remainder of myString is the string value to the right of the location
-        myString = myString.Substring(periodLocation + 1);
-
-        // remove any leading white-space from myString
-        myString = myString.TrimStart();
-
-        // update the comma location and increment the counter
-        periodLocation = myString.IndexOf(".");
-
-        Console.WriteLine(mySentence);
-    }
-
-    // the remaining portion of speciesToListSelection is the final species name 
-    mySentence = myString.Trim();
-    Console.WriteLine(mySentence);
-} */

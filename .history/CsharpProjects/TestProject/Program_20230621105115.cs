@@ -166,7 +166,7 @@ for (int i = 0; i < myStrings.Length; i++)
 }; */
 
 
-/* //3 MS-solution
+//3 MS-solution
 string[] myStrings = new string[2] { "I like pizza. I like roast chicken. I like salad", "I like all three of the menu choices" };
 int stringsCount = myStrings.Length;
 
@@ -202,4 +202,4 @@ for (int i = 0; i < stringsCount; i++)
     // the remaining portion of speciesToListSelection is the final species name 
     mySentence = myString.Trim();
     Console.WriteLine(mySentence);
-} */
+}
