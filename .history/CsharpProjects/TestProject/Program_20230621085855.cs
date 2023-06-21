@@ -70,18 +70,21 @@ readResult = Console.ReadLine(); */
 
 
 
-/* //2 own solution
+//2 own solution
 Console.WriteLine("Enter one of the following role names: Administrator, Manager, or User");
 string userInput;
-string userInput_modified;
+string userInput_original;
 Boolean askForNewUserInput = true;
 
 do
 {
-    userInput = Console.ReadLine();
-    userInput_modified = userInput.Trim().ToLower();
+    userInput = Console.ReadLine().Trim().ToLower();
 
-    switch (userInput_modified)
+    // userInput = Console.ReadLine();
+    // userInput_original = String.Copy(userInput);
+    // userInput = userInput.Trim().ToLower();
+
+    switch (userInput)
     {
         case "administrator":
         case "manager":
@@ -95,7 +98,7 @@ do
 
 } while (askForNewUserInput);
 
-Console.WriteLine($"Input value {userInput} has been accepted."); */
+Console.WriteLine($"Input value {userInput} has been accepted.");
 
 /* //2 MS-solution; note: 
 string? readResult;
@@ -164,42 +167,3 @@ for (int i = 0; i < myStrings.Length; i++)
         Console.ReadLine();
     } while (!noMoreSentence);
 }; */
-
-
-//3 MS-solution
-string[] myStrings = new string[2] { "I like pizza. I like roast chicken. I like salad", "I like all three of the menu choices" };
-int stringsCount = myStrings.Length;
-
-string myString = "";
-int periodLocation = 0;
-
-for (int i = 0; i < stringsCount; i++)
-{
-    myString = myStrings[i];
-    periodLocation = myString.IndexOf(".");
-
-    string mySentence;
-
-    // extract sentences from each string and display them one at a time
-    while (periodLocation != -1)
-    {
-
-        // first sentence is the string value to the left of the period location
-        mySentence = myString.Remove(periodLocation);
-
-        // the remainder of myString is the string value to the right of the location
-        myString = myString.Substring(periodLocation + 1);
-
-        // remove any leading white-space from myString
-        myString = myString.TrimStart();
-
-        // update the comma location and increment the counter
-        periodLocation = myString.IndexOf(".");
-
-        Console.WriteLine(mySentence);
-    }
-
-    // the remaining portion of speciesToListSelection is the final species name 
-    mySentence = myString.Trim();
-    Console.WriteLine(mySentence);
-}
