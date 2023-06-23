@@ -307,31 +307,7 @@ do
                                 }
                             }
                         } while (validEntry == false);
-                        //assign new value
-                        ourAnimals[i, 2] = "Age: " + animalAge;
                     }
-                    //for physical description
-                    /* if (petAge < 0 || petAge == "?")
-                    {
-                        do
-                        {
-                            Console.WriteLine("Enter the pet's age as a numerical value:");
-                            readResult = Console.ReadLine();
-                            if (readResult != null)
-                            {
-                                animalAge = readResult;
-                                //Check if Integer
-                                validEntry = int.TryParse(animalAge, out petAge);
-                                //Check if gt 0
-                                if (validEntry)
-                                {
-                                    validEntry = animalAge > 0 ? true : false;
-                                }
-                            }
-                        } while (validEntry == false);
-                        //assign new value
-                        ourAnimals[i, 2] = "Age: " + animalAge;
-                    } */
                 }
             }
 

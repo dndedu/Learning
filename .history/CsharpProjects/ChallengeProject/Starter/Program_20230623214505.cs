@@ -195,7 +195,6 @@ do
                     }
                 } while (validEntry == false);
 
-
                 // get a description of the pet's physical appearance - animalPhysicalDescription can be blank.
                 do
                 {
@@ -298,42 +297,32 @@ do
                             if (readResult != null)
                             {
                                 animalAge = readResult;
-                                //Check if Integer
-                                validEntry = int.TryParse(animalAge, out petAge);
-                                //Check if gt 0
-                                if (validEntry)
+                                if (animalAge != "?")
                                 {
-                                    validEntry = animalAge > 0 ? true : false;
+                                    validEntry = int.TryParse(animalAge, out petAge);
                                 }
                             }
                         } while (validEntry == false);
-                        //assign new value
-                        ourAnimals[i, 2] = "Age: " + animalAge;
                     }
-                    //for physical description
-                    /* if (petAge < 0 || petAge == "?")
-                    {
-                        do
-                        {
-                            Console.WriteLine("Enter the pet's age as a numerical value:");
-                            readResult = Console.ReadLine();
-                            if (readResult != null)
-                            {
-                                animalAge = readResult;
-                                //Check if Integer
-                                validEntry = int.TryParse(animalAge, out petAge);
-                                //Check if gt 0
-                                if (validEntry)
-                                {
-                                    validEntry = animalAge > 0 ? true : false;
-                                }
-                            }
-                        } while (validEntry == false);
-                        //assign new value
-                        ourAnimals[i, 2] = "Age: " + animalAge;
-                    } */
                 }
             }
+
+            /* do
+                {
+                    Console.WriteLine("Enter the pet's age or enter ? if unknown");
+                    readResult = Console.ReadLine();
+                    if (readResult != null)
+                    {
+                        animalAge = readResult;
+                        //Check if Integer
+                        validEntry = int.TryParse(animalAge, out petAge);
+                        //Check if gt 0
+                        if (validEntry)
+                        {
+                            validEntry = animalAge > 0 ? true : false;
+                        }
+                    }
+                } while (validEntry == false); */
 
             Console.WriteLine("Press the Enter key to continue.");
             readResult = Console.ReadLine();
