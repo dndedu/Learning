@@ -8,4 +8,8 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Starter_20230227223045
+<<<<<<< HEAD
 build_property.ProjectDir = f:\Workspace\VS Code\Learning\.history\CsharpProjects\GuidedProject\Starter\
+=======
+build_property.ProjectDir = h:\0.1Workspace\VisualStudioCode\Learning\.history\CsharpProjects\GuidedProject\Starter\
+>>>>>>> 668ca413c9c36d64f325d5b4b931cd97b639838b
