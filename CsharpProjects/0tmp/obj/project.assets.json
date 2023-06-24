@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\0.1Workspace\\VisualStudioCode\\Learning\\CsharpProjects\\TestProject\\TestProject.csproj",
-      "projectName": "TestProject",
-      "projectPath": "H:\\0.1Workspace\\VisualStudioCode\\Learning\\CsharpProjects\\TestProject\\TestProject.csproj",
+      "projectUniqueName": "H:\\0.1Workspace\\VisualStudioCode\\Learning\\CsharpProjects\\0tmp\\tmp.csproj",
+      "projectName": "tmp",
+      "projectPath": "H:\\0.1Workspace\\VisualStudioCode\\Learning\\CsharpProjects\\0tmp\\tmp.csproj",
       "packagesPath": "C:\\Users\\dadom002\\.nuget\\packages\\",
-      "outputPath": "H:\\0.1Workspace\\VisualStudioCode\\Learning\\CsharpProjects\\TestProject\\obj\\",
+      "outputPath": "H:\\0.1Workspace\\VisualStudioCode\\Learning\\CsharpProjects\\0tmp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dadom002\\AppData\\Roaming\\NuGet\\NuGet.Config"

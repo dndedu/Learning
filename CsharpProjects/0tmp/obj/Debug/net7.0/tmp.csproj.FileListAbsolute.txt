@@ -1,0 +1,30 @@
+F:\Workspace\VS Code\Learning\CsharpProjects\tmp\obj\Debug\net7.0\tmp.csproj.AssemblyReference.cache
+F:\Workspace\VS Code\Learning\CsharpProjects\tmp\obj\Debug\net7.0\tmp.GeneratedMSBuildEditorConfig.editorconfig
+F:\Workspace\VS Code\Learning\CsharpProjects\tmp\obj\Debug\net7.0\tmp.AssemblyInfoInputs.cache
+F:\Workspace\VS Code\Learning\CsharpProjects\tmp\obj\Debug\net7.0\tmp.AssemblyInfo.cs
+F:\Workspace\VS Code\Learning\CsharpProjects\tmp\obj\Debug\net7.0\tmp.csproj.CoreCompileInputs.cache
+F:\Workspace\VS Code\Learning\CsharpProjects\tmp\bin\Debug\net7.0\tmp.exe
+F:\Workspace\VS Code\Learning\CsharpProjects\tmp\bin\Debug\net7.0\tmp.deps.json
+F:\Workspace\VS Code\Learning\CsharpProjects\tmp\bin\Debug\net7.0\tmp.runtimeconfig.json
+F:\Workspace\VS Code\Learning\CsharpProjects\tmp\bin\Debug\net7.0\tmp.dll
+F:\Workspace\VS Code\Learning\CsharpProjects\tmp\bin\Debug\net7.0\tmp.pdb
+F:\Workspace\VS Code\Learning\CsharpProjects\tmp\obj\Debug\net7.0\tmp.dll
+F:\Workspace\VS Code\Learning\CsharpProjects\tmp\obj\Debug\net7.0\refint\tmp.dll
+F:\Workspace\VS Code\Learning\CsharpProjects\tmp\obj\Debug\net7.0\tmp.pdb
+F:\Workspace\VS Code\Learning\CsharpProjects\tmp\obj\Debug\net7.0\tmp.genruntimeconfig.cache
+F:\Workspace\VS Code\Learning\CsharpProjects\tmp\obj\Debug\net7.0\ref\tmp.dll
+H:\0.1Workspace\VisualStudioCode\Learning\CsharpProjects\0tmp\bin\Debug\net7.0\tmp.exe
+H:\0.1Workspace\VisualStudioCode\Learning\CsharpProjects\0tmp\bin\Debug\net7.0\tmp.deps.json
+H:\0.1Workspace\VisualStudioCode\Learning\CsharpProjects\0tmp\bin\Debug\net7.0\tmp.runtimeconfig.json
+H:\0.1Workspace\VisualStudioCode\Learning\CsharpProjects\0tmp\bin\Debug\net7.0\tmp.dll
+H:\0.1Workspace\VisualStudioCode\Learning\CsharpProjects\0tmp\bin\Debug\net7.0\tmp.pdb
+H:\0.1Workspace\VisualStudioCode\Learning\CsharpProjects\0tmp\obj\Debug\net7.0\tmp.csproj.AssemblyReference.cache
+H:\0.1Workspace\VisualStudioCode\Learning\CsharpProjects\0tmp\obj\Debug\net7.0\tmp.GeneratedMSBuildEditorConfig.editorconfig
+H:\0.1Workspace\VisualStudioCode\Learning\CsharpProjects\0tmp\obj\Debug\net7.0\tmp.AssemblyInfoInputs.cache
+H:\0.1Workspace\VisualStudioCode\Learning\CsharpProjects\0tmp\obj\Debug\net7.0\tmp.AssemblyInfo.cs
+H:\0.1Workspace\VisualStudioCode\Learning\CsharpProjects\0tmp\obj\Debug\net7.0\tmp.csproj.CoreCompileInputs.cache
+H:\0.1Workspace\VisualStudioCode\Learning\CsharpProjects\0tmp\obj\Debug\net7.0\tmp.dll
+H:\0.1Workspace\VisualStudioCode\Learning\CsharpProjects\0tmp\obj\Debug\net7.0\refint\tmp.dll
+H:\0.1Workspace\VisualStudioCode\Learning\CsharpProjects\0tmp\obj\Debug\net7.0\tmp.pdb
+H:\0.1Workspace\VisualStudioCode\Learning\CsharpProjects\0tmp\obj\Debug\net7.0\tmp.genruntimeconfig.cache
+H:\0.1Workspace\VisualStudioCode\Learning\CsharpProjects\0tmp\obj\Debug\net7.0\ref\tmp.dll
