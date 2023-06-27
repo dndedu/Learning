@@ -4,8 +4,7 @@ float value3 = 4.3f;
 
 // Your code here to set result1
 // Hint: You need to round the result to nearest integer (don't just truncate)
-// int result1 = (int)Math.Round(value1 / value2);
-int result1 = Convert.ToInt32(value1 / value2);
+int result1 = (int)Math.Round(value1 / value2);
 Console.WriteLine($"Divide value1 by value2, display the result as an int: {result1}");
 
 // Your code here to set result2
