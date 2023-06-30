@@ -93,8 +93,6 @@ Array.Sort(singleOrders);
 
 foreach (string order in singleOrders)
 {
-    if (order.Length != 4)
-        Console.WriteLine(order + "\t- Error");
-    else
-        Console.WriteLine(order);
+    if (order.Length != 4) Console.WriteLine(order + "\t- Error");
+    else Console.WriteLine(order);
 }
