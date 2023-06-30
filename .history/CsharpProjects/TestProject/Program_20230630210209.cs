@@ -79,8 +79,7 @@ foreach (string word in parts)
     // #3.2
     // Console.Write(new String(c) + " ");
 
-    // #4, works
-    // char[] letters = word.ToCharArray();
-    // Array.Reverse(letters);
-    // Console.Write(new String(letters) + " ");
+    // #4
+    Array.Reverse(word.ToCharArray());
+    Console.Write(word);
 }

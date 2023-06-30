@@ -63,24 +63,9 @@ string pangram = "The quick brown fox jumps over the lazy dog";
 
 string[] parts = pangram.Split(" ");
 
+Console.WriteLine(parts[0]);
+
 foreach (string word in parts)
 {
-    // #1, works
-    // Console.Write(String.Concat(word.Reverse()) + " ");
-
-    // #2, works
-    // Console.Write(String.Join("", word.Reverse()) + " ");
-
-    // #3, works,
-    // char[] c = word.ToCharArray();
-    // Array.Reverse(c);
-    // #3.1
-    // Console.Write(c + " ");
-    // #3.2
-    // Console.Write(new String(c) + " ");
-
-    // #4, works
-    // char[] letters = word.ToCharArray();
-    // Array.Reverse(letters);
-    // Console.Write(new String(letters) + " ");
+    Console.Write(word.Reverse() + " ");
 }
