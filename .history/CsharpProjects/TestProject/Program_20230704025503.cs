@@ -105,4 +105,4 @@ string result = string.Format("{0} {1}!", first, second);
 Console.WriteLine(result);
 
 decimal tax = .12051m;
-Console.WriteLine($"Tax rate: {tax:P1}");
+Console.WriteLine($"Tax rate: {tax}");
