@@ -131,6 +131,4 @@ var formattedLine = paymentId.PadRight(6);
 formattedLine += payeeName.PadRight(24);
 formattedLine += paymentAmount.PadLeft(10);
 
-//Additional line as indicator for checking if formatting is correct
-Console.WriteLine("1234567890123456789012345678901234567890");
 Console.WriteLine(formattedLine);

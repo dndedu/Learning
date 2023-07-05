@@ -127,7 +127,7 @@ string paymentId = "769";
 string payeeName = "Mr. Stephen Ortega";
 string paymentAmount = "$5,000.00";
 
-var formattedLine = paymentId.PadRight(6);
+var formattedLine = paymentId.PadRight(2, '+');
 formattedLine += payeeName.PadRight(24);
 formattedLine += paymentAmount.PadLeft(10);
 
