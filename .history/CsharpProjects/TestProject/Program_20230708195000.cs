@@ -135,8 +135,6 @@ quantity = input.Substring(contentStart, contentEnd - contentStart);
 
 //output
 output = input;
-//Replace Alternative 1
-// output = input.Replace("&trade;", "&reg");
 firstSearchTerm = "<div>";
 secondSearchTerm = "</div>";
 //ersten Tag/Teil entfernen
@@ -145,9 +143,9 @@ output = output.Remove(contentStart, firstSearchTerm.Length);
 //zweiten Tag/Teil entfernen
 //Indexposition der folgenden Stelle aufgrund Änderung am String separat berechnen
 contentEnd = output.IndexOf(secondSearchTerm, contentStart);
+// Console.WriteLine(contentEnd);
 output = output.Remove(contentEnd, secondSearchTerm.Length);
-//Replace Alternative 2, eigene
-output = output.Replace("&trade;", "&reg");
+// Console.WriteLine(output);
 
 Console.WriteLine(quantity);
 Console.WriteLine(output);

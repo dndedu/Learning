@@ -8,31 +8,23 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\DnD\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\dadom002\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Workspace\\VS Code\\Learning\\CsharpProjects\\TestProject\\TestProject.csproj",
+      "projectUniqueName": "H:\\0.1Workspace\\VisualStudioCode\\Learning\\CsharpProjects\\TestProject\\TestProject.csproj",
       "projectName": "TestProject",
-      "projectPath": "F:\\Workspace\\VS Code\\Learning\\CsharpProjects\\TestProject\\TestProject.csproj",
-      "packagesPath": "C:\\Users\\DnD\\.nuget\\packages\\",
-      "outputPath": "F:\\Workspace\\VS Code\\Learning\\CsharpProjects\\TestProject\\obj\\",
+      "projectPath": "H:\\0.1Workspace\\VisualStudioCode\\Learning\\CsharpProjects\\TestProject\\TestProject.csproj",
+      "packagesPath": "C:\\Users\\dadom002\\.nuget\\packages\\",
+      "outputPath": "H:\\0.1Workspace\\VisualStudioCode\\Learning\\CsharpProjects\\TestProject\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\DnD\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\dadom002\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
-      "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
-      },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
@@ -64,7 +56,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.107\\RuntimeIdentifierGraph.json"
       }
     }
   }

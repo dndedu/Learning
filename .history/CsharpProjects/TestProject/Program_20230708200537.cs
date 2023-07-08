@@ -149,5 +149,6 @@ output = output.Remove(contentEnd, secondSearchTerm.Length);
 //Replace Alternative 2, eigene
 output = output.Replace("&trade;", "&reg");
 
+
 Console.WriteLine(quantity);
 Console.WriteLine(output);
