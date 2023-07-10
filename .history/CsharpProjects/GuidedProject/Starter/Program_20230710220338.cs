@@ -156,16 +156,11 @@ do
                     {
                         Console.WriteLine($"\nOur dog {ourAnimals[i, 3]} is a match!");
                         Console.WriteLine(dogDescription);
-
                         noMatchesDog = false;
                     }
                 }
             }
-            if (noMatchesDog)
-            {
-                Console.WriteLine("None of our dogs are a match found for: " + dogCharacteristic);
-            }
-            Console.ReadLine();
+
             break;
 
         default:
