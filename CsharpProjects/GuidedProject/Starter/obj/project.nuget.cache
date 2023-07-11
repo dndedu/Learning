@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "version": 2,
   "dgSpecHash": "ZT1j9vQGDK9fOvuIKVerezFYSY9ThLwWKcKPbgPvGm1BAFjhOqoMapoZWpQrZnFNIwv8DYBrn3pLpsB1dxQVew==",
@@ -5,4 +6,13 @@
   "projectFilePath": "f:\\Workspace\\VS Code\\Learning\\CsharpProjects\\GuidedProject\\Starter\\Starter.csproj",
   "expectedPackageFiles": [],
   "logs": []
+=======
+{
+  "version": 2,
+  "dgSpecHash": "UV9WEvu7YeSYx9AI+sSgNOv8jCDzNjMiPE89jjGQ4h8EU1Rhibdb0YbZApwWAh6mnyEBr4oFM8k+tFbJUxgcow==",
+  "success": true,
+  "projectFilePath": "H:\\0.1Workspace\\VisualStudioCode\\Learning\\CsharpProjects\\GuidedProject\\Starter\\Starter.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+>>>>>>> dcd2314b06348496b30ecd704559f2e9a2f2a729
 }

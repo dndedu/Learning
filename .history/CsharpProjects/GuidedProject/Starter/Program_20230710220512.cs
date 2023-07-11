@@ -165,7 +165,6 @@ do
             {
                 Console.WriteLine("None of our dogs are a match found for: " + dogCharacteristic);
             }
-            Console.ReadLine();
             break;
 
         default:
