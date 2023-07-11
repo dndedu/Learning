@@ -1,4 +1,5 @@
 {
     "editor.formatOnSave": true,
-    "code-runner.fileDirectoryAsCwd": true
+    "code-runner.fileDirectoryAsCwd": true,
+    "dotnet.defaultSolution": "CsharpProjects\\CsharpProjects.sln"
 }

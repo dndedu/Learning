@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Workspace\\VS Code\\Learning\\CsharpProjects\\GuidedProject\\Starter\\Starter.csproj": {}
+    "f:\\Workspace\\VS Code\\Learning\\CsharpProjects\\GuidedProject\\Starter\\Starter.csproj": {}
   },
   "projects": {
-    "F:\\Workspace\\VS Code\\Learning\\CsharpProjects\\GuidedProject\\Starter\\Starter.csproj": {
+    "f:\\Workspace\\VS Code\\Learning\\CsharpProjects\\GuidedProject\\Starter\\Starter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Workspace\\VS Code\\Learning\\CsharpProjects\\GuidedProject\\Starter\\Starter.csproj",
+        "projectUniqueName": "f:\\Workspace\\VS Code\\Learning\\CsharpProjects\\GuidedProject\\Starter\\Starter.csproj",
         "projectName": "Starter",
-        "projectPath": "F:\\Workspace\\VS Code\\Learning\\CsharpProjects\\GuidedProject\\Starter\\Starter.csproj",
+        "projectPath": "f:\\Workspace\\VS Code\\Learning\\CsharpProjects\\GuidedProject\\Starter\\Starter.csproj",
         "packagesPath": "C:\\Users\\DnD\\.nuget\\packages\\",
-        "outputPath": "F:\\Workspace\\VS Code\\Learning\\CsharpProjects\\GuidedProject\\Starter\\obj\\",
+        "outputPath": "f:\\Workspace\\VS Code\\Learning\\CsharpProjects\\GuidedProject\\Starter\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "f:\\Workspace\\VS Code\\Learning\\CsharpProjects\\ChallengeProject\\Starter\\Starter.csproj": {}
+    "f:\\Workspace\\VS Code\\Learning\\CsharpProjects\\ChallengeProject\\Final\\Final.csproj": {}
   },
   "projects": {
-    "f:\\Workspace\\VS Code\\Learning\\CsharpProjects\\ChallengeProject\\Starter\\Starter.csproj": {
+    "f:\\Workspace\\VS Code\\Learning\\CsharpProjects\\ChallengeProject\\Final\\Final.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "f:\\Workspace\\VS Code\\Learning\\CsharpProjects\\ChallengeProject\\Starter\\Starter.csproj",
-        "projectName": "Starter",
-        "projectPath": "f:\\Workspace\\VS Code\\Learning\\CsharpProjects\\ChallengeProject\\Starter\\Starter.csproj",
+        "projectUniqueName": "f:\\Workspace\\VS Code\\Learning\\CsharpProjects\\ChallengeProject\\Final\\Final.csproj",
+        "projectName": "Final",
+        "projectPath": "f:\\Workspace\\VS Code\\Learning\\CsharpProjects\\ChallengeProject\\Final\\Final.csproj",
         "packagesPath": "C:\\Users\\DnD\\.nuget\\packages\\",
-        "outputPath": "f:\\Workspace\\VS Code\\Learning\\CsharpProjects\\ChallengeProject\\Starter\\obj\\",
+        "outputPath": "f:\\Workspace\\VS Code\\Learning\\CsharpProjects\\ChallengeProject\\Final\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
