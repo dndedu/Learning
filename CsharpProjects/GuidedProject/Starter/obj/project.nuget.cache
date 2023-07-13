@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZT1j9vQGDK9fOvuIKVerezFYSY9ThLwWKcKPbgPvGm1BAFjhOqoMapoZWpQrZnFNIwv8DYBrn3pLpsB1dxQVew==",
+  "dgSpecHash": "loIqIqMiKuEkyfvtFNaqpzskCeCCzjWnZtVbV2KrUYQbR/6XLbdKwr6NPDwAS40yUCptM+pm00UB40S481iwsQ==",
   "success": true,
   "projectFilePath": "f:\\Workspace\\VS Code\\Learning\\CsharpProjects\\GuidedProject\\Starter\\Starter.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem beim Lesen der Cachedatei \"f:\\Workspace\\VS Code\\Learning\\CsharpProjects\\GuidedProject\\Starter\\obj\\project.nuget.cache\": Unexpected character encountered while parsing value: <. Path '', line 0, position 0."
-    }
-  ]
+  "logs": []
 }

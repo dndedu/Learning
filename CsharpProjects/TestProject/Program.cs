@@ -1,153 +1,71 @@
-﻿// string message = "tmp:Hi Alf!";
+﻿using System;
 
-// const string openSpan = "H";
-// const string closeSpan = "f";
+int[] times = { 800, 1200, 1600, 2000 };
+int diff = 0;
 
-// int startPosition = message.IndexOf(openSpan);
-// Console.WriteLine(startPosition);
-// int endPosition = message.IndexOf(closeSpan);
-// Console.WriteLine(endPosition);
+Console.WriteLine("Enter current GMT");
+int currentGMT = Convert.ToInt32(Console.ReadLine());
 
-// // openingPosition += openSpan.Length;
-// /* In der folgenden Zeile werden ArrayIndizes verrechnet.
-// Der Abstand/Weg (die Anzahl der Verbindungen/Relationen zwischen den einzelnen Elementen) wird zwischen beiden gemessen.
-// Abstand von Indize 2 zu 3 ist 1.
-// Wenn jedoch wie hier die Länge an Stellen berechnet wird,
-// welche beide Indizewerte einschliesst,
-// muss +1 hinzuaddiert werden,
-// da das Objekt von dem aus in eine Richtung (-/+) gewandert wird,
-// mitgezählt werden muss. */
-// int length = (endPosition - startPosition) + 1;
-// Console.WriteLine(length);
-// Console.WriteLine(message.Substring(startPosition, length));
+Console.WriteLine("Current Medicine Schedule:");
+DisplayTimes();
 
-/* string message = "(What if) I am (only interested) in the last (set of parentheses)?";
-int openingPosition = message.LastIndexOf('(');
+Console.WriteLine();
 
-openingPosition += 1;
-int closingPosition = message.LastIndexOf(')');
-int length = closingPosition - openingPosition;
-Console.WriteLine(message.Substring(openingPosition, length)); */
+Console.WriteLine("Enter new GMT");
+int newGMT = Convert.ToInt32(Console.ReadLine());
 
-/* string message = "(What if) there are (more than) one (set of parentheses)?";
-while (true)
+if (Math.Abs(newGMT) > 12 || Math.Abs(currentGMT) > 12)
 {
-    int openingPosition = message.IndexOf('(');
-    // Console.WriteLine(openingPosition);
-    if (openingPosition == -1) break;
-
-    openingPosition += 1;
-    int closingPosition = message.IndexOf(')');
-    int length = closingPosition - openingPosition;
-    Console.WriteLine(message.Substring(openingPosition, length));
-
-    // Note the overload of the Substring to return only the remaining 
-    // unprocessed message:
-    message = message.Substring(closingPosition + 1);
-    // Console.WriteLine(message.Length);
-} */
-
-/* string message = "Help (find) the {opening symbols}";
-Console.WriteLine($"Searching THIS Message: {message}");
-char[] openSymbols = { '[', '{', '(' };
-int startPosition = 6;
-int openingPosition = message.IndexOfAny(openSymbols);
-Console.WriteLine($"Found WITHOUT using startPosition: {message.Substring(openingPosition)}");
-
-openingPosition = message.IndexOfAny(openSymbols, startPosition);
-Console.WriteLine($"Found WITH using startPosition: {message.Substring(openingPosition)}"); */
-
-/* string message = "(What if) I have [different symbols] but every {open symbol} needs a [matching closing symbol]?";
-
-// The IndexOfAny() helper method requires a char array of characters. 
-// You want to look for:
-
-char[] openSymbols = { '[', '{', '(' };
-
-// You'll use a slightly different technique for iterating through 
-// the characters in the string. This time, use the closing 
-// position of the previous iteration as the starting index for the 
-//next open symbol. So, you need to initialize the closingPosition 
-// variable to zero:
-
-int closingPosition = 0;
-
-while (true)
+    Console.WriteLine("Invalid GMT");
+}
+else if (newGMT <= 0 && currentGMT <= 0 || newGMT >= 0 && currentGMT >= 0)
 {
-    int openingPosition = message.IndexOfAny(openSymbols, closingPosition);
+    diff = 100 * (Math.Abs(newGMT) - Math.Abs(currentGMT));
+    AdjustTimes();
+}
+else
+{
+    diff = 100 * (Math.Abs(newGMT) + Math.Abs(currentGMT));
+    AdjustTimes();
+}
 
-    if (openingPosition == -1) break;
+Console.WriteLine("New Medicine Schedule:");
+DisplayTimes();
 
-    string currentSymbol = message.Substring(openingPosition, 1);
+Console.WriteLine();
 
-    // Now  find the matching closing symbol
-    char matchingSymbol = ' ';
-
-    switch (currentSymbol)
+void DisplayTimes()
+{
+    /* Format and display medicine times */
+    foreach (int val in times)
     {
-        case "[":
-            matchingSymbol = ']';
-            break;
-        case "{":
-            matchingSymbol = '}';
-            break;
-        case "(":
-            matchingSymbol = ')';
-            break;
+        string time = val.ToString();
+        int len = time.Length;
+
+        if (len >= 3)
+        {
+            time = time.Insert(len - 2, ":");
+        }
+        else if (len == 2)
+        {
+            time = time.Insert(0, "0:");
+        }
+        else
+        {
+            time = time.Insert(0, "0:0");
+        }
+
+        Console.Write($"{time} ");
     }
 
-    // To find the closingPosition, use an overload of the IndexOf method to specify 
-    // that the search for the matchingSymbol should start at the openingPosition in the string. 
+    Console.WriteLine();
+}
 
-    openingPosition += 1;
-    // Console.WriteLine(message.ElementAt(openingPosition));
-    closingPosition = message.IndexOf(matchingSymbol, openingPosition);
-
-    // Finally, use the techniques you've already learned to display the sub-string:
-
-    int length = closingPosition - openingPosition;
-    Console.WriteLine(message.Substring(openingPosition, length));
-} */
-
-/* string data = "12345John Smith          5000  3  ";
-string updatedData = data.Remove(5, 20);
-Console.WriteLine(updatedData); */
-
-/* string message = "This--is--ex-amp-le--da-ta";
-message = message.Replace("--", " ");
-message = message.Replace("-", "");
-Console.WriteLine(message); */
-
-const string input = "<div><h2>Widgets &trade;</h2><span>5000</span></div>";
-
-string quantity = "";
-string output = "";
-
-// Your work here
-//quantity
-string firstSearchTerm = "<span>";
-string secondSearchTerm = "</span>";
-int contentStart = input.IndexOf(firstSearchTerm) + firstSearchTerm.Length;
-// Console.WriteLine(spanContentStart);
-int contentEnd = input.IndexOf(secondSearchTerm, contentStart);
-// Console.WriteLine(spanContentEnd);
-quantity = input.Substring(contentStart, contentEnd - contentStart);
-
-//output
-output = input;
-//Replace Alternative 1
-// output = input.Replace("&trade;", "&reg");
-firstSearchTerm = "<div>";
-secondSearchTerm = "</div>";
-//ersten Tag/Teil entfernen
-contentStart = input.IndexOf(firstSearchTerm);
-output = output.Remove(contentStart, firstSearchTerm.Length);
-//zweiten Tag/Teil entfernen
-//Indexposition der folgenden Stelle aufgrund Änderung am String separat berechnen
-contentEnd = output.IndexOf(secondSearchTerm, contentStart);
-output = output.Remove(contentEnd, secondSearchTerm.Length);
-//Replace Alternative 2, eigene
-output = output.Replace("&trade;", "&reg");
-
-Console.WriteLine(quantity);
-Console.WriteLine(output);
+void AdjustTimes()
+{
+    /* Adjust the times by adding the difference, keeping the value within 24 hours */
+    for (int i = 0; i < times.Length; i++)
+    {
+        times[i] = ((times[i] + diff)) % 2400;
+    }
+}
