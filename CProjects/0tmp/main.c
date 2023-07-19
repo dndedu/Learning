@@ -2,6 +2,7 @@
 #include <limits.h>
 #include <math.h>
 #include <string.h> //Bibliothek libc.a für strcpy (Zuweisung eines Wertes zu einer Zeichenkette(char-Array) außerhalb der Definition)
+#include <stdlib.h> //Speicherverwaltung
 
 #include "utility.h"
 
@@ -61,7 +62,7 @@ int main(int argc, char const *argv[])
     //     char vorname[50];
     //     char geburtsdatum[11]; // 1987-xx-xx
     //     int matrikelnummer;
-    // } studenten_fhDortmund[20000];
+    // } student_einzeln, studenten_fhDortmund[20000];
     // strcpy(studenten_fhDortmund[0].nachname, "Domanski");
     // strcpy(studenten_fhDortmund[0].vorname, "Daniel");
     // strcpy(studenten_fhDortmund[0].geburtsdatum, "1987-03-29");
@@ -125,13 +126,47 @@ int main(int argc, char const *argv[])
     // printf("%i\n", sizeof(adressen));
     // adressen[0]->hausnummer = 8;
 
-    // Sichtbarkeit
-    int x = 1;
-    {
-        int x = 2;
-        printf("%d\n", x);
-    }
-    printf("%d\n", x);
+    // // Sichtbarkeit
+    // int x = 1;
+    // {
+    //     int x = 2;
+    //     printf("%d\n", x);
+    // }
+    // printf("%d\n", x);
+
+    // // Pointer
+    // int feld[100];
+    // feld[5] = 55;
+    // int *ptr;
+    // printf("sizeof(feld): %d\n", sizeof(feld));
+    // printf("sizeof(ptr): %d\n", sizeof(ptr));
+    // ptr = feld;
+    // printf("%d\n", *(ptr + 5));
+    // printf("%d\n", (ptr)[5]);
+    // // zur oberen struct student-Struktur
+    // struct student *ptrs = &student_einzeln;
+    // ptrs->geburtsdatum = "Test";
+    // strcpy((*ptrs).geburtsdatum, "Test\0");
+    // printf("%s\n", (*ptrs).geburtsdatum);
+    // // Funktionszeiger
+    // void (*pS)(char[]);
+    // pS = &printString;
+    // (*pS)("Test");
+
+    // // Speicherverwaltung, malloc, calloc
+    // int *a;
+    // a = (int *)calloc(10, 3);
+    // printf("%d\n", *(a + 10));
+
+    // // S.100 String kopieren
+    //     const char *original = "C macht Spass.";
+    //     char *duplikat;
+    //     // duplikat = original;
+    //     string_copy(duplikat, original);
+    //     printf("%s\n", duplikat);
+
+    // // print argumentlist of main method
+    //     print_mainArguments(argc, argv);
 
     return 0;
 }
@@ -174,6 +209,8 @@ Datentypen
             bspw. mittels unärem Adressoperator &
         Dereferenzierung / Zugriff auf Wert
             mittels *
+        Funktionspointer
+            return_type (*functionPointerName) (parameterList);
 
 Präprozessordirektiven
     #include <standard.h>
@@ -191,6 +228,13 @@ Speicherverwaltung
         frame-Erzeugung durch Methodenaufruf
     Heap
         vom Programmierer zur Laufzeit dynamisch verwaltet
+        void *malloc(size_t size);
+            liefert NULL oder Zeiger auf erstes Byte des reservierten Bereiches
+                casten/umwandeln in passenden Datentyp
+        void *calloc( size_count, sizeInBytes/sizeof(datatype) );
+            initialisieren des Speicherbereiches mit 0
+        free(zeiger);
+            nur auf zuvor reservierte Speicherbereiche anwenden
 
 Speicherklassen
     auto
