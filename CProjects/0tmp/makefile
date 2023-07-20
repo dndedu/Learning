@@ -1,8 +1,8 @@
-main: main.c utility.o utility.h
-	gcc main.c -o main utility.o utility.h
+main: main.c utilities.o utilities.h
+	gcc main.c -o main utilities.o utilities.h
 
-utility.o: utility.c
-	gcc utility.c -c
+utilities.o: utilities.c
+	gcc utilities.c -c
 
 clean:
-	rm main utility.o
+	rm main utilities.o
