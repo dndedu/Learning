@@ -1,9 +1,15 @@
 #include <iostream>
 #include <iomanip>
 #include <string>
+#include <climits>
 
+#include "utilities.h"
+#include "student.h"
 #include "simple.h"
-Simple global{1};
+
+// //Reihenfolge De-/Konstruktor-Aufrufe
+// Simple global{1};
+
 int main(int argc, char const *argv[])
 {
     // int i = 1;
@@ -26,10 +32,38 @@ int main(int argc, char const *argv[])
     // std::getline(std::cin, name);
     // std::cout << name << std::endl;
 
-    Simple outer{2};
+    // //Reihenfolge De-/Konstruktor-Aufrufe
+    //     Simple outer{2};
+    //     {
+    //         Simple inner{3};
+    //     }
+
+    // // Pointer
+    // int *pointer;
+    // pointer = new int;
+    // *pointer = 10;
+    // int *pa = new int[4];
+    // pa[2] = 15;
+    // int **pp = new int *[2];
+    // pp[0] = pointer;
+    // *(pp + 1) = &pa[2];
+    // std::cout << *pp[0] << std::endl;
+    // std::cout << **pp << std::endl;
+    // std::cout << *pp[1] << std::endl;
+
+    // Dynamische Objekterzeugung, structs
+    struct element
     {
-        Simple inner{3};
-    }
+        int key;
+        // //Schlüsselwort nach Deklaration optional
+        // struct element *next;
+        element *next;
+    };
+    // //Schlüsselwort nach Deklaration optional
+    // struct element *head = new struct element;
+    element *head = new element;
+    head->key = 10;
+    std::cout << head->key << std::endl;
 
     return 0;
 }
