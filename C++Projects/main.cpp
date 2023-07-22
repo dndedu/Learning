@@ -3,6 +3,14 @@
 #include <string>
 #include <climits>
 
+// C
+// #include <stdio.h>
+// C++-Pendant
+// #include <cstdio>
+// TODO
+// why are these includes obsolete for printf("%d", 1);
+// they must be included automatically from somewhere else
+
 #include "utilities.h"
 #include "student.h"
 #include "simple.h"
@@ -51,19 +59,23 @@ int main(int argc, char const *argv[])
     // std::cout << **pp << std::endl;
     // std::cout << *pp[1] << std::endl;
 
-    // Dynamische Objekterzeugung, structs
-    struct element
-    {
-        int key;
-        // //Schlüsselwort nach Deklaration optional
-        // struct element *next;
-        element *next;
-    };
-    // //Schlüsselwort nach Deklaration optional
-    // struct element *head = new struct element;
-    element *head = new element;
-    head->key = 10;
-    std::cout << head->key << std::endl;
+    // // Dynamische Objekterzeugung, structs
+    // struct element
+    // {
+    //     int key;
+    //     // //Schlüsselwort nach Deklaration optional
+    //     // struct element *next;
+    //     element *next;
+    // };
+    // // //Schlüsselwort nach Deklaration optional
+    // // struct element *head = new struct element;
+    // element *head = new element;
+    // head->key = 10;
+    // std::cout << head->key << std::endl;
+
+    // Include C Header & its C++ Pendant for printf()
+    printf("%d", 1);
+    // #include isn't necessary for printf(), see comment at the #include-section above
 
     return 0;
 }
