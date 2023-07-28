@@ -27,5 +27,12 @@ class Start
         //Klasse Angestellter
         Angestellter angestellter = new Angestellter("Alf", 100000);
         Console.WriteLine(angestellter.GetName());
+
+        //Klasse StructForm
+        Punkt p;
+        p.x = 0;
+        p.y = 0;
+        Rechteck r = new Rechteck(p, 5.0, 10.0);
+        Console.WriteLine($"Fläche des Rechtecks: {r.BerechneFlaeche()}");
     }
 }

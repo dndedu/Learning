@@ -1,7 +1,7 @@
 {
     "editor.formatOnSave": true,
     "code-runner.fileDirectoryAsCwd": true,
-    "dotnet.defaultSolution": "CsharpProjects\\CsharpProjects.sln",
+    "dotnet.defaultSolution": "CsharpProjects/CsharpProjects.sln",
     "files.associations": {
         "utility.h": "c",
         "atomic": "cpp",
