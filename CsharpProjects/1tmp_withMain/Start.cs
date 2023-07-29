@@ -34,5 +34,35 @@ class Start
         p.y = 0;
         Rechteck r = new Rechteck(p, 5.0, 10.0);
         Console.WriteLine($"Fläche des Rechtecks: {r.BerechneFlaeche()}");
+
+        //Klasse Complex
+        Complex a = new Complex(100.0, 200.0);
+        Complex b = new Complex(400.0, 500.0);
+        Complex c = a + b;
+        c += a;
+        Console.WriteLine(c.Real + "+ i" + c.Imaginaer);
+
+        Complex d, e;
+        d = new Complex(0.0, 0.0);
+        e = d++;
+        Console.WriteLine(e.Real + "+ i" + e.Imaginaer);
+        e = ++d;
+        Console.WriteLine(e.Real + "+ i" + e.Imaginaer);
+
+        //Klasse Indexer
+        Fussballmannschaft bvb = new Fussballmannschaft();
+        bvb[0] = new Spieler("Hummels", 15);
+        bvb[1] = new Spieler("Reus", 11);
+        Console.WriteLine("Spieler {0} mit der Nummer {1}", bvb[1].Name, bvb[1].Nummer);
+
+        //Klasse Delegate
+        Delegate.Greetings g;
+        // g("Alf");
+        g = new Delegate.Greetings(Delegate.SayHello);
+        g("Bill");
+        g = Delegate.SayHallo;
+        g("Bob");
+        g += Delegate.SayHello;
+        g("Boss");
     }
 }
