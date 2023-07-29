@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Workspace\\VS Code\\Learning\\CsharpProjects\\ChallengeProject\\Starter\\Starter.csproj": {}
+    "f:\\Workspace\\VS Code\\Learning\\CsharpProjects\\ChallengeProject\\Starter\\Starter.csproj": {}
   },
   "projects": {
-    "F:\\Workspace\\VS Code\\Learning\\CsharpProjects\\ChallengeProject\\Starter\\Starter.csproj": {
+    "f:\\Workspace\\VS Code\\Learning\\CsharpProjects\\ChallengeProject\\Starter\\Starter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Workspace\\VS Code\\Learning\\CsharpProjects\\ChallengeProject\\Starter\\Starter.csproj",
+        "projectUniqueName": "f:\\Workspace\\VS Code\\Learning\\CsharpProjects\\ChallengeProject\\Starter\\Starter.csproj",
         "projectName": "Starter",
-        "projectPath": "F:\\Workspace\\VS Code\\Learning\\CsharpProjects\\ChallengeProject\\Starter\\Starter.csproj",
+        "projectPath": "f:\\Workspace\\VS Code\\Learning\\CsharpProjects\\ChallengeProject\\Starter\\Starter.csproj",
         "packagesPath": "C:\\Users\\DnD\\.nuget\\packages\\",
-        "outputPath": "F:\\Workspace\\VS Code\\Learning\\CsharpProjects\\ChallengeProject\\Starter\\obj\\",
+        "outputPath": "f:\\Workspace\\VS Code\\Learning\\CsharpProjects\\ChallengeProject\\Starter\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -57,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

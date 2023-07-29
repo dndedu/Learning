@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Workspace\\VS Code\\Learning\\CsharpProjects\\0tmp\\tmp.csproj",
+      "projectUniqueName": "f:\\Workspace\\VS Code\\Learning\\CsharpProjects\\0tmp\\tmp.csproj",
       "projectName": "tmp",
-      "projectPath": "F:\\Workspace\\VS Code\\Learning\\CsharpProjects\\0tmp\\tmp.csproj",
+      "projectPath": "f:\\Workspace\\VS Code\\Learning\\CsharpProjects\\0tmp\\tmp.csproj",
       "packagesPath": "C:\\Users\\DnD\\.nuget\\packages\\",
-      "outputPath": "F:\\Workspace\\VS Code\\Learning\\CsharpProjects\\0tmp\\obj\\",
+      "outputPath": "f:\\Workspace\\VS Code\\Learning\\CsharpProjects\\0tmp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -64,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }
