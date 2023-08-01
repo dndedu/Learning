@@ -64,5 +64,45 @@ class Start
         g("Bob");
         g += Delegate.SayHello;
         g("Boss");
+
+        //Typumwandlung, OverflowException
+
+        //Variante1
+        // for (int i = 254; i < 259; i++)
+        // {
+        //     byte by = (byte)i;
+        //     Console.WriteLine(by);
+        // }
+
+        //Variante2
+        // try
+        // {
+        //     checked
+        //     {
+        //         for (int i = 254; i < 259; i++)
+        //         {
+        //             byte byt = (byte)i;
+        //             Console.WriteLine(byt);
+        //         }
+        //     }
+        // }
+        // catch (System.OverflowException)
+        // {
+        //     Console.WriteLine("Arithmetischer Überlauf");
+        // }
+
+        //Variante3
+        try
+        {
+            for (int i = 254; i < 259; i++)
+            {
+                byte byt = (byte)i;
+                Console.WriteLine(byt);
+            }
+        }
+        catch (System.OverflowException)
+        {
+            Console.WriteLine("Arithmetischer Überlauf");
+        }
     }
 }
