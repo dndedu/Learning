@@ -1,24 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "H:\\0.1Workspace\\VisualStudioCode\\Learning\\CsharpProjects\\1tmp_withMain\\1tmp_withMain.csproj": {}
+    "f:\\Workspace\\VS Code\\Learning\\CsharpProjects\\1tmp_withMain\\1tmp_withMain.csproj": {}
   },
   "projects": {
-    "H:\\0.1Workspace\\VisualStudioCode\\Learning\\CsharpProjects\\1tmp_withMain\\1tmp_withMain.csproj": {
+    "f:\\Workspace\\VS Code\\Learning\\CsharpProjects\\1tmp_withMain\\1tmp_withMain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\0.1Workspace\\VisualStudioCode\\Learning\\CsharpProjects\\1tmp_withMain\\1tmp_withMain.csproj",
+        "projectUniqueName": "f:\\Workspace\\VS Code\\Learning\\CsharpProjects\\1tmp_withMain\\1tmp_withMain.csproj",
         "projectName": "1tmp_withMain",
-        "projectPath": "H:\\0.1Workspace\\VisualStudioCode\\Learning\\CsharpProjects\\1tmp_withMain\\1tmp_withMain.csproj",
-        "packagesPath": "C:\\Users\\dadom002\\.nuget\\packages\\",
-        "outputPath": "H:\\0.1Workspace\\VisualStudioCode\\Learning\\CsharpProjects\\1tmp_withMain\\obj\\",
+        "projectPath": "f:\\Workspace\\VS Code\\Learning\\CsharpProjects\\1tmp_withMain\\1tmp_withMain.csproj",
+        "packagesPath": "C:\\Users\\DnD\\.nuget\\packages\\",
+        "outputPath": "f:\\Workspace\\VS Code\\Learning\\CsharpProjects\\1tmp_withMain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\dadom002\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\DnD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
@@ -50,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.109\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }
