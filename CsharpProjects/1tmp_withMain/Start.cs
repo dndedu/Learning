@@ -92,17 +92,20 @@ class Start
         // }
 
         //Variante3
-        try
+        checked
         {
-            for (int i = 254; i < 259; i++)
+            try
             {
-                byte byt = (byte)i;
-                Console.WriteLine(byt);
+                for (int i = 254; i < 259; i++)
+                {
+                    byte byt = (byte)i;
+                    Console.WriteLine(byt);
+                }
             }
-        }
-        catch (System.OverflowException)
-        {
-            Console.WriteLine("Arithmetischer Überlauf");
-        }
+            catch (System.OverflowException)
+            {
+                Console.WriteLine("Arithmetischer Überlauf");
+            }
+        };
     }
 }
