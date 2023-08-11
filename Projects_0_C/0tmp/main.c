@@ -4,7 +4,7 @@
 #include <string.h> //Bibliothek libc.a für strcpy (Zuweisung eines Wertes zu einer Zeichenkette(char-Array) außerhalb der Definition)
 #include <stdlib.h> //Speicherverwaltung
 
-#include "utility.h"
+#include "utilities.h"
 
 int main(int argc, char const *argv[])
 {
