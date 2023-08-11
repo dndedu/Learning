@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "H:\\0.1Workspace\\VisualStudioCode\\Learning\\Projects_2_C#\\0tmp\\tmp.csproj": {}
+    "H:\\0.1Workspace\\VisualStudioCode\\Learning\\Projects_2_C#\\0tmp\\0tmpC#.csproj": {}
   },
   "projects": {
-    "H:\\0.1Workspace\\VisualStudioCode\\Learning\\Projects_2_C#\\0tmp\\tmp.csproj": {
+    "H:\\0.1Workspace\\VisualStudioCode\\Learning\\Projects_2_C#\\0tmp\\0tmpC#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\0.1Workspace\\VisualStudioCode\\Learning\\Projects_2_C#\\0tmp\\tmp.csproj",
-        "projectName": "tmp",
-        "projectPath": "H:\\0.1Workspace\\VisualStudioCode\\Learning\\Projects_2_C#\\0tmp\\tmp.csproj",
+        "projectUniqueName": "H:\\0.1Workspace\\VisualStudioCode\\Learning\\Projects_2_C#\\0tmp\\0tmpC#.csproj",
+        "projectName": "0tmpC#",
+        "projectPath": "H:\\0.1Workspace\\VisualStudioCode\\Learning\\Projects_2_C#\\0tmp\\0tmpC#.csproj",
         "packagesPath": "C:\\Users\\dadom002\\.nuget\\packages\\",
         "outputPath": "H:\\0.1Workspace\\VisualStudioCode\\Learning\\Projects_2_C#\\0tmp\\obj\\",
         "projectStyle": "PackageReference",

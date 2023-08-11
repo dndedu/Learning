@@ -43,3 +43,11 @@ F:\Workspace\VS Code\Learning\CsharpProjects\0tmp\obj\Debug\net7.0\refint\tmp.dl
 F:\Workspace\VS Code\Learning\CsharpProjects\0tmp\obj\Debug\net7.0\tmp.pdb
 F:\Workspace\VS Code\Learning\CsharpProjects\0tmp\obj\Debug\net7.0\tmp.genruntimeconfig.cache
 F:\Workspace\VS Code\Learning\CsharpProjects\0tmp\obj\Debug\net7.0\ref\tmp.dll
+H:\0.1Workspace\VisualStudioCode\Learning\Projects_2_C#\0tmp\obj\Debug\net7.0\tmp.csproj.AssemblyReference.cache
+H:\0.1Workspace\VisualStudioCode\Learning\Projects_2_C#\0tmp\obj\Debug\net7.0\tmp.GeneratedMSBuildEditorConfig.editorconfig
+H:\0.1Workspace\VisualStudioCode\Learning\Projects_2_C#\0tmp\obj\Debug\net7.0\tmp.AssemblyInfoInputs.cache
+H:\0.1Workspace\VisualStudioCode\Learning\Projects_2_C#\0tmp\obj\Debug\net7.0\tmp.AssemblyInfo.cs
+H:\0.1Workspace\VisualStudioCode\Learning\Projects_2_C#\0tmp\obj\Debug\net7.0\tmp.csproj.CoreCompileInputs.cache
+H:\0.1Workspace\VisualStudioCode\Learning\Projects_2_C#\0tmp\obj\Debug\net7.0\tmp.dll
+H:\0.1Workspace\VisualStudioCode\Learning\Projects_2_C#\0tmp\obj\Debug\net7.0\refint\tmp.dll
+H:\0.1Workspace\VisualStudioCode\Learning\Projects_2_C#\0tmp\obj\Debug\net7.0\tmp.pdb
