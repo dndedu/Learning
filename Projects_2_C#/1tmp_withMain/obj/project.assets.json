@@ -1,0 +1,67 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net7.0": []
+  },
+  "packageFolders": {
+    "C:\\Users\\dadom002\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "H:\\0.1Workspace\\VisualStudioCode\\Learning\\Projects_2_C#\\1tmp_withMain\\1tmp_withMain.csproj",
+      "projectName": "1tmp_withMain",
+      "projectPath": "H:\\0.1Workspace\\VisualStudioCode\\Learning\\Projects_2_C#\\1tmp_withMain\\1tmp_withMain.csproj",
+      "packagesPath": "C:\\Users\\dadom002\\.nuget\\packages\\",
+      "outputPath": "H:\\0.1Workspace\\VisualStudioCode\\Learning\\Projects_2_C#\\1tmp_withMain\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\dadom002\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+<<<<<<< HEAD:CsharpProjects/1tmp_withMain/obj/project.assets.json
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.109\\RuntimeIdentifierGraph.json"
+>>>>>>> d1d6d5b0769e3ceb52b7c6797edac458ac9a3bce:Projects_2_C#/1tmp_withMain/obj/project.assets.json
+      }
+    }
+  }
+}

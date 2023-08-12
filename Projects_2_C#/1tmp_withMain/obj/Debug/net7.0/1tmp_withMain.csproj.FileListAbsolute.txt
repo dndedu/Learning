@@ -1,0 +1,45 @@
+F:\Workspace\VS Code\Learning\CsharpProjects\1tmp_withMain\bin\Debug\net7.0\1tmp_withMain.exe
+F:\Workspace\VS Code\Learning\CsharpProjects\1tmp_withMain\bin\Debug\net7.0\1tmp_withMain.deps.json
+F:\Workspace\VS Code\Learning\CsharpProjects\1tmp_withMain\bin\Debug\net7.0\1tmp_withMain.runtimeconfig.json
+F:\Workspace\VS Code\Learning\CsharpProjects\1tmp_withMain\bin\Debug\net7.0\1tmp_withMain.dll
+F:\Workspace\VS Code\Learning\CsharpProjects\1tmp_withMain\bin\Debug\net7.0\1tmp_withMain.pdb
+F:\Workspace\VS Code\Learning\CsharpProjects\1tmp_withMain\obj\Debug\net7.0\1tmp_withMain.csproj.AssemblyReference.cache
+F:\Workspace\VS Code\Learning\CsharpProjects\1tmp_withMain\obj\Debug\net7.0\1tmp_withMain.GeneratedMSBuildEditorConfig.editorconfig
+F:\Workspace\VS Code\Learning\CsharpProjects\1tmp_withMain\obj\Debug\net7.0\1tmp_withMain.AssemblyInfoInputs.cache
+F:\Workspace\VS Code\Learning\CsharpProjects\1tmp_withMain\obj\Debug\net7.0\1tmp_withMain.AssemblyInfo.cs
+F:\Workspace\VS Code\Learning\CsharpProjects\1tmp_withMain\obj\Debug\net7.0\1tmp_withMain.csproj.CoreCompileInputs.cache
+F:\Workspace\VS Code\Learning\CsharpProjects\1tmp_withMain\obj\Debug\net7.0\1tmp_withMain.dll
+F:\Workspace\VS Code\Learning\CsharpProjects\1tmp_withMain\obj\Debug\net7.0\refint\1tmp_withMain.dll
+F:\Workspace\VS Code\Learning\CsharpProjects\1tmp_withMain\obj\Debug\net7.0\1tmp_withMain.pdb
+F:\Workspace\VS Code\Learning\CsharpProjects\1tmp_withMain\obj\Debug\net7.0\1tmp_withMain.genruntimeconfig.cache
+F:\Workspace\VS Code\Learning\CsharpProjects\1tmp_withMain\obj\Debug\net7.0\ref\1tmp_withMain.dll
+H:\0.1Workspace\VisualStudioCode\Learning\CsharpProjects\1tmp_withMain\obj\Debug\net7.0\1tmp_withMain.csproj.AssemblyReference.cache
+H:\0.1Workspace\VisualStudioCode\Learning\CsharpProjects\1tmp_withMain\obj\Debug\net7.0\1tmp_withMain.GeneratedMSBuildEditorConfig.editorconfig
+H:\0.1Workspace\VisualStudioCode\Learning\CsharpProjects\1tmp_withMain\obj\Debug\net7.0\1tmp_withMain.AssemblyInfoInputs.cache
+H:\0.1Workspace\VisualStudioCode\Learning\CsharpProjects\1tmp_withMain\obj\Debug\net7.0\1tmp_withMain.AssemblyInfo.cs
+H:\0.1Workspace\VisualStudioCode\Learning\CsharpProjects\1tmp_withMain\obj\Debug\net7.0\1tmp_withMain.csproj.CoreCompileInputs.cache
+H:\0.1Workspace\VisualStudioCode\Learning\CsharpProjects\1tmp_withMain\obj\Debug\net7.0\1tmp_withMain.dll
+H:\0.1Workspace\VisualStudioCode\Learning\CsharpProjects\1tmp_withMain\obj\Debug\net7.0\refint\1tmp_withMain.dll
+H:\0.1Workspace\VisualStudioCode\Learning\CsharpProjects\1tmp_withMain\obj\Debug\net7.0\1tmp_withMain.pdb
+H:\0.1Workspace\VisualStudioCode\Learning\CsharpProjects\1tmp_withMain\bin\Debug\net7.0\1tmp_withMain.exe
+H:\0.1Workspace\VisualStudioCode\Learning\CsharpProjects\1tmp_withMain\bin\Debug\net7.0\1tmp_withMain.deps.json
+H:\0.1Workspace\VisualStudioCode\Learning\CsharpProjects\1tmp_withMain\bin\Debug\net7.0\1tmp_withMain.runtimeconfig.json
+H:\0.1Workspace\VisualStudioCode\Learning\CsharpProjects\1tmp_withMain\bin\Debug\net7.0\1tmp_withMain.dll
+H:\0.1Workspace\VisualStudioCode\Learning\CsharpProjects\1tmp_withMain\bin\Debug\net7.0\1tmp_withMain.pdb
+H:\0.1Workspace\VisualStudioCode\Learning\CsharpProjects\1tmp_withMain\obj\Debug\net7.0\1tmp_withMain.genruntimeconfig.cache
+H:\0.1Workspace\VisualStudioCode\Learning\CsharpProjects\1tmp_withMain\obj\Debug\net7.0\ref\1tmp_withMain.dll
+H:\0.1Workspace\VisualStudioCode\Learning\Projects_2_C#\1tmp_withMain\bin\Debug\net7.0\1tmp_withMain.exe
+H:\0.1Workspace\VisualStudioCode\Learning\Projects_2_C#\1tmp_withMain\bin\Debug\net7.0\1tmp_withMain.deps.json
+H:\0.1Workspace\VisualStudioCode\Learning\Projects_2_C#\1tmp_withMain\bin\Debug\net7.0\1tmp_withMain.runtimeconfig.json
+H:\0.1Workspace\VisualStudioCode\Learning\Projects_2_C#\1tmp_withMain\bin\Debug\net7.0\1tmp_withMain.dll
+H:\0.1Workspace\VisualStudioCode\Learning\Projects_2_C#\1tmp_withMain\bin\Debug\net7.0\1tmp_withMain.pdb
+H:\0.1Workspace\VisualStudioCode\Learning\Projects_2_C#\1tmp_withMain\obj\Debug\net7.0\1tmp_withMain.csproj.AssemblyReference.cache
+H:\0.1Workspace\VisualStudioCode\Learning\Projects_2_C#\1tmp_withMain\obj\Debug\net7.0\1tmp_withMain.GeneratedMSBuildEditorConfig.editorconfig
+H:\0.1Workspace\VisualStudioCode\Learning\Projects_2_C#\1tmp_withMain\obj\Debug\net7.0\1tmp_withMain.AssemblyInfoInputs.cache
+H:\0.1Workspace\VisualStudioCode\Learning\Projects_2_C#\1tmp_withMain\obj\Debug\net7.0\1tmp_withMain.AssemblyInfo.cs
+H:\0.1Workspace\VisualStudioCode\Learning\Projects_2_C#\1tmp_withMain\obj\Debug\net7.0\1tmp_withMain.csproj.CoreCompileInputs.cache
+H:\0.1Workspace\VisualStudioCode\Learning\Projects_2_C#\1tmp_withMain\obj\Debug\net7.0\1tmp_withMain.dll
+H:\0.1Workspace\VisualStudioCode\Learning\Projects_2_C#\1tmp_withMain\obj\Debug\net7.0\refint\1tmp_withMain.dll
+H:\0.1Workspace\VisualStudioCode\Learning\Projects_2_C#\1tmp_withMain\obj\Debug\net7.0\1tmp_withMain.pdb
+H:\0.1Workspace\VisualStudioCode\Learning\Projects_2_C#\1tmp_withMain\obj\Debug\net7.0\1tmp_withMain.genruntimeconfig.cache
+H:\0.1Workspace\VisualStudioCode\Learning\Projects_2_C#\1tmp_withMain\obj\Debug\net7.0\ref\1tmp_withMain.dll
