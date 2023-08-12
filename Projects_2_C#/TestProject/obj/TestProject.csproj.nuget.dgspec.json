@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "f:\\Workspace\\VS Code\\Learning\\CsharpProjects\\TestProject\\TestProject.csproj": {}
+    "f:\\Workspace\\VS Code\\Learning\\Projects_2_C#\\TestProject\\TestProject.csproj": {}
   },
   "projects": {
-    "f:\\Workspace\\VS Code\\Learning\\CsharpProjects\\TestProject\\TestProject.csproj": {
+    "f:\\Workspace\\VS Code\\Learning\\Projects_2_C#\\TestProject\\TestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "f:\\Workspace\\VS Code\\Learning\\CsharpProjects\\TestProject\\TestProject.csproj",
+        "projectUniqueName": "f:\\Workspace\\VS Code\\Learning\\Projects_2_C#\\TestProject\\TestProject.csproj",
         "projectName": "TestProject",
-        "projectPath": "f:\\Workspace\\VS Code\\Learning\\CsharpProjects\\TestProject\\TestProject.csproj",
+        "projectPath": "f:\\Workspace\\VS Code\\Learning\\Projects_2_C#\\TestProject\\TestProject.csproj",
         "packagesPath": "C:\\Users\\DnD\\.nuget\\packages\\",
-        "outputPath": "f:\\Workspace\\VS Code\\Learning\\CsharpProjects\\TestProject\\obj\\",
+        "outputPath": "f:\\Workspace\\VS Code\\Learning\\Projects_2_C#\\TestProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

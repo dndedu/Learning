@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "f:\\Workspace\\VS Code\\Learning\\CsharpProjects\\GuidedProject\\Final\\Final.csproj",
+      "projectUniqueName": "f:\\Workspace\\VS Code\\Learning\\Projects_2_C#\\GuidedProject\\Final\\Final.csproj",
       "projectName": "Final",
-      "projectPath": "f:\\Workspace\\VS Code\\Learning\\CsharpProjects\\GuidedProject\\Final\\Final.csproj",
+      "projectPath": "f:\\Workspace\\VS Code\\Learning\\Projects_2_C#\\GuidedProject\\Final\\Final.csproj",
       "packagesPath": "C:\\Users\\DnD\\.nuget\\packages\\",
-      "outputPath": "f:\\Workspace\\VS Code\\Learning\\CsharpProjects\\GuidedProject\\Final\\obj\\",
+      "outputPath": "f:\\Workspace\\VS Code\\Learning\\Projects_2_C#\\GuidedProject\\Final\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

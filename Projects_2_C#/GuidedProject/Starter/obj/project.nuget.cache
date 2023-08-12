@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I8pPey/c44ulsXsDMlNam9ABL85AMuLquOAL7ePApdAgddrVsMsApVjPE5TWHNHsTuP32/whdtYd1WV3N76Wtg==",
+  "dgSpecHash": "h1WlgstfENaegCwEhE22DiRc0fV4+1Zo1cJ6fd1yX7Q0thvRKr70PgdaYxjveT48hWsZtX9KMOXuV7kbDo7MgA==",
   "success": true,
-  "projectFilePath": "f:\\Workspace\\VS Code\\Learning\\CsharpProjects\\GuidedProject\\Starter\\Starter.csproj",
+  "projectFilePath": "f:\\Workspace\\VS Code\\Learning\\Projects_2_C#\\GuidedProject\\Starter\\Starter.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
