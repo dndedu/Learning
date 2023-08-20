@@ -3,4 +3,3 @@ main: main.cpp punkt.o
 
 punkt.o: punkt.cpp
 	c++ punkt.cpp -c -std=c++11
-

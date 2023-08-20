@@ -1,6 +1,6 @@
 #include "rational.h"
 
-rational::rational(int zaehler, int nenner) : zaehler {zaehler}, nenner {nenner} {}
+rational::rational(int zaehler, int nenner) : zaehler{zaehler}, nenner{nenner} {}
 
 /*
 rational rational::operator*(rational r){
@@ -9,12 +9,14 @@ rational rational::operator*(rational r){
 }
 */
 
-rational operator*(rational l, rational r){
-    rational neu {l.zaehler * r.zaehler, l.nenner * r.nenner};
+rational operator*(rational l, rational r)
+{
+    rational neu{l.zaehler * r.zaehler, l.nenner * r.nenner};
     return neu;
 }
 
-std::ostream& operator<<(std::ostream& out, rational r){
+std::ostream &operator<<(std::ostream &out, rational r)
+{
     out << "(" << r.zaehler << "/" << r.nenner << ")";
     return out;
 }
