@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "f:\\Workspace\\VS Code\\Learning\\Projects_2_C#\\TestProject\\TestProject.csproj",
+      "projectUniqueName": "F:\\Workspace\\VS Code\\Learning\\Projects_2_C#\\TestProject\\TestProject.csproj",
       "projectName": "TestProject",
-      "projectPath": "f:\\Workspace\\VS Code\\Learning\\Projects_2_C#\\TestProject\\TestProject.csproj",
+      "projectPath": "F:\\Workspace\\VS Code\\Learning\\Projects_2_C#\\TestProject\\TestProject.csproj",
       "packagesPath": "C:\\Users\\DnD\\.nuget\\packages\\",
-      "outputPath": "f:\\Workspace\\VS Code\\Learning\\Projects_2_C#\\TestProject\\obj\\",
+      "outputPath": "F:\\Workspace\\VS Code\\Learning\\Projects_2_C#\\TestProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -43,6 +43,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -64,7 +69,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.308\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

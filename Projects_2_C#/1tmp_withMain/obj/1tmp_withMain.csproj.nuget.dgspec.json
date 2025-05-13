@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "f:\\Workspace\\VS Code\\Learning\\Projects_2_C#\\1tmp_withMain\\1tmp_withMain.csproj": {}
+    "F:\\Workspace\\VS Code\\Learning\\Projects_2_C#\\1tmp_withMain\\1tmp_withMain.csproj": {}
   },
   "projects": {
-    "f:\\Workspace\\VS Code\\Learning\\Projects_2_C#\\1tmp_withMain\\1tmp_withMain.csproj": {
+    "F:\\Workspace\\VS Code\\Learning\\Projects_2_C#\\1tmp_withMain\\1tmp_withMain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "f:\\Workspace\\VS Code\\Learning\\Projects_2_C#\\1tmp_withMain\\1tmp_withMain.csproj",
+        "projectUniqueName": "F:\\Workspace\\VS Code\\Learning\\Projects_2_C#\\1tmp_withMain\\1tmp_withMain.csproj",
         "projectName": "1tmp_withMain",
-        "projectPath": "f:\\Workspace\\VS Code\\Learning\\Projects_2_C#\\1tmp_withMain\\1tmp_withMain.csproj",
+        "projectPath": "F:\\Workspace\\VS Code\\Learning\\Projects_2_C#\\1tmp_withMain\\1tmp_withMain.csproj",
         "packagesPath": "C:\\Users\\DnD\\.nuget\\packages\\",
-        "outputPath": "f:\\Workspace\\VS Code\\Learning\\Projects_2_C#\\1tmp_withMain\\obj\\",
+        "outputPath": "F:\\Workspace\\VS Code\\Learning\\Projects_2_C#\\1tmp_withMain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -36,6 +36,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -57,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.308\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

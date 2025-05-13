@@ -3,17 +3,15 @@
 #include "ggt.h"
 
 // Methodenankündigung
-int ggt();
+// int ggt();
 
 int main()
 {
-    printf("Hallo Dortmund.\n");
     printf("%d", ggt(2, 3));
     return 0;
 }
 
 /* // Methodendeklarationen
-
 
 /*
 Notes

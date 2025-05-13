@@ -9,9 +9,9 @@
 int main(int argc, char const *argv[])
 {
     // // DataType Properties
-    // printf("Der Typ int benoetigt %d Byte\n", sizeof(int));
-    // printf("Wertebereich von int: %d, ... ,%d\n",
-    //        INT_MIN, INT_MAX);
+    printf("Der Typ int benoetigt %d Byte\n", sizeof(int));
+    printf("Wertebereich von int: %d, ... ,%d\n",
+           INT_MIN, INT_MAX);
 
     // // Logische Operatoren
     // long a = 64, b = 32, c;

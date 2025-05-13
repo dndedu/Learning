@@ -27,7 +27,6 @@ void print_quadrat(int x)
 
 int main()
 {
-
   print_quadrat(2);
   int a = 2 * quadrat(2);
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "f:\\Workspace\\VS Code\\Learning\\Projects_2_C#\\ChallengeProject\\Starter\\Starter.csproj": {}
+    "F:\\Workspace\\VS Code\\Learning\\Projects_2_C#\\ChallengeProject\\Starter\\Starter.csproj": {}
   },
   "projects": {
-    "f:\\Workspace\\VS Code\\Learning\\Projects_2_C#\\ChallengeProject\\Starter\\Starter.csproj": {
+    "F:\\Workspace\\VS Code\\Learning\\Projects_2_C#\\ChallengeProject\\Starter\\Starter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "f:\\Workspace\\VS Code\\Learning\\Projects_2_C#\\ChallengeProject\\Starter\\Starter.csproj",
+        "projectUniqueName": "F:\\Workspace\\VS Code\\Learning\\Projects_2_C#\\ChallengeProject\\Starter\\Starter.csproj",
         "projectName": "Starter",
-        "projectPath": "f:\\Workspace\\VS Code\\Learning\\Projects_2_C#\\ChallengeProject\\Starter\\Starter.csproj",
+        "projectPath": "F:\\Workspace\\VS Code\\Learning\\Projects_2_C#\\ChallengeProject\\Starter\\Starter.csproj",
         "packagesPath": "C:\\Users\\DnD\\.nuget\\packages\\",
-        "outputPath": "f:\\Workspace\\VS Code\\Learning\\Projects_2_C#\\ChallengeProject\\Starter\\obj\\",
+        "outputPath": "F:\\Workspace\\VS Code\\Learning\\Projects_2_C#\\ChallengeProject\\Starter\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -36,6 +36,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -57,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.308\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
