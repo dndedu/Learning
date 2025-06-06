@@ -9,9 +9,42 @@
 int main(int argc, char const *argv[])
 {
     // // DataType Properties
+    printf("Der Typ char benoetigt %d Byte\n", sizeof(char));
+    printf("Wertebereich von char: %d, ... ,%d\n",
+           CHAR_MIN, CHAR_MAX);
+
+    printf("Der Typ short_int benoetigt %d Byte\n", sizeof(short int));
+    printf("Wertebereich von short_int: %d, ... ,%d\n",
+           SHRT_MIN, SHRT_MAX);
+    printf("Wertebereich von unsigned short_int: 0, ..., %d\n", USHRT_MAX);
+
     printf("Der Typ int benoetigt %d Byte\n", sizeof(int));
     printf("Wertebereich von int: %d, ... ,%d\n",
            INT_MIN, INT_MAX);
+
+#define FEHLERMELDUNG(text) fprintf(stderr, text)
+    FEHLERMELDUNG("test\n");
+
+    union FloatToInt
+    {
+        float f;
+        int i;
+    };
+    union FloatToInt u;
+    u.f = 3.14f;
+    printf("Bits von float als int: %d\n", u.i); // Bits von 3.14 als int darstellen
+
+    printf("value of argc: %d\n", argc);
+
+    int i;
+    for (i = 0; i < argc; i++)
+    {
+        printf("%s\n", argv[i]);
+    }
+
+    /*TODO
+        C-VL durchgehen und, sofern nicht in den Praktikumsaufgaben behandelt mit struct, union, typedef etc. umgehen lernen/programmieren
+    */
 
     // // Logische Operatoren
     // long a = 64, b = 32, c;
