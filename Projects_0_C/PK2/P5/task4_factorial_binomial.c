@@ -36,6 +36,7 @@ unsigned long binomialkoeffizient(int natuerlicheZahl, int k)
         k = natuerlicheZahl - k;
     }
     // Alternative effizientere Berechnung um Overflow zu vermeiden:
+    // Kürze (n-k)! aus n! heraus
     // C(n,k) = (n × (n-1) × (n-2) × ... × (n-k+1)) / (k × (k-1) × (k-2) × ... × 1)
     unsigned long result = 1;
     for (int i = 0; i < k; i++)
