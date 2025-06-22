@@ -1,5 +1,5 @@
-hallo: hallo.c
-	gcc hallo.c -o hallo
+main: hallo.c
+	gcc hallo.c -o main
 
 clean:
-	rm hallo
+	rm main

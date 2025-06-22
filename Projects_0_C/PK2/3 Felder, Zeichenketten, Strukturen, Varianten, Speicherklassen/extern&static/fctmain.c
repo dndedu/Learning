@@ -14,8 +14,14 @@ int summe(int n)
     static int c = 0;
     c++;
     printf("Anzahl Aufrufe summe = %d\n", c);
-    if (n == 0)
-        return 0;
+
+    // // vorige Lösung
+    // if (n == 0)
+    //     return 0;
+
+    // ein Aufruf weniger
+    if (n == 1)
+        return 1;
     return n + summe(n - 1);
 }
 

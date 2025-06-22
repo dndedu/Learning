@@ -14,10 +14,9 @@ int summe(int n)
 
 int main()
 {
-
 #if DEBUG
   LOG("Vor Summe");
 #endif
   printf("Summe = %d\n", summe(100));
-  printf("%d\n", MIN(100, 50));
+  printf("Minimum = %d\n", MIN(100, 50));
 }

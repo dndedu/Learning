@@ -7,7 +7,7 @@
 
 int main()
 {
-    printf("%d", ggt(2, 3));
+    printf("%d", ggt(7, 28));
     return 0;
 }
 

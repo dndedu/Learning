@@ -45,8 +45,9 @@ void bubblesort(int feld[], int length,
 int main()
 {
   int a[] = {9, 2, 3, 4, 5, 6, 7, 8, 1};
-  // bubblesort(a, 9, &comparehtl);
   bubblesort(a, 9, &comparelth);
+  // bubblesort(a, 9, &comparehtl);
+
   int i;
   for (i = 0; i < 9; i++)
   {

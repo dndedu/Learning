@@ -1,5 +1,5 @@
-calcggt: calcggt.c ggt.o ggt.h
-	gcc calcggt.c -o calcggt ggt.o ggt.h
+main: calcggt.c ggt.o ggt.h ggt.s
+	gcc calcggt.c -o main ggt.o ggt.h
 
 ggt.s: ggt.c
 	gcc -S ggt.c
@@ -8,4 +8,4 @@ ggt.o: ggt.c
 	gcc -c ggt.c
 
 clean:
-	rm ggt.s ggt.o calcggt
+	rm ggt.s ggt.o main

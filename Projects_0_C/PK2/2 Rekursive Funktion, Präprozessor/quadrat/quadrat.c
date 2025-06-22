@@ -8,7 +8,7 @@ long summe(int n)
 }
 
 /*
-schlechte Loesung
+// schlechte Loesung
 void quadrat(int x){
   printf("%d\n", x*x);
 }

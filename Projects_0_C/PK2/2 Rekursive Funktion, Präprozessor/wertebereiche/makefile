@@ -1,2 +1,5 @@
-rechnerarchitektur: rechnerarchitektur.c
-	gcc rechnerarchitektur.c -o rechnerarchitektur
+main: rechnerarchitektur.c
+	gcc -o rechnerarchitektur rechnerarchitektur.c
+
+clean:
+	rm main

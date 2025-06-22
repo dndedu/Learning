@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-
+// Option 1
 int laenge(char text[])
 {
     int i = 0;
@@ -10,6 +10,17 @@ int laenge(char text[])
     }
     return i;
 }
+
+// // Option 2
+// int laenge(char text[])
+// {
+//   int c = 0;
+//   while (text[c])
+//   {
+//     c++;
+//   }
+//   return c;
+// }
 
 int main()
 {
