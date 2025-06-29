@@ -7,14 +7,14 @@ typedef struct listNode
 {
     int key;
     struct listNode *next;
-} listNode;
+} listNode_t;
 
-typedef struct dictionary
+typedef struct dictionary_t
 {
-    listNode *table[SIZE];
-} dictionary;
+    listNode_t *table[SIZE];
+} dictionary_t;
 
-dictionary dict;
+dictionary_t dict;
 
 int hash(int key)
 {
@@ -35,7 +35,7 @@ int insert(int key)
     int index = hash(key);
 
     // Neuen Knoten erstellen
-    listNode *new_node = (listNode *)malloc(sizeof(listNode));
+    listNode_t *new_node = (listNode_t *)malloc(sizeof(listNode_t));
     if (new_node == NULL)
     {
         // Nicht genügend Speicherplatz
@@ -50,11 +50,11 @@ int insert(int key)
     return 1;
 }
 
-// Funktion, welche überprüft, ob Wert im dictionary vorhanden ist
+// Funktion, welche überprüft, ob Wert im dictionary_t vorhanden ist
 int member(int key)
 {
     int index = hash(key);
-    listNode *current = dict.table[index];
+    listNode_t *current = dict.table[index];
 
     while (current != NULL)
     {
@@ -72,22 +72,21 @@ int member(int key)
 int delete(int key)
 {
     int index = hash(key);
-    listNode *current = dict.table[index];
-    listNode *prev = NULL;
+    listNode_t *current = dict.table[index];
+    listNode_t *prev = NULL;
 
     while (current != NULL)
     {
+        // Element gefunden, löschen
         if (current->key == key)
         {
-            // Element gefunden, löschen
-            if (prev == NULL)
+
+            if (prev == NULL) // Erstes Element in der Liste
             {
-                // Erstes Element in der Liste
                 dict.table[index] = current->next;
             }
-            else
+            else // Element in der Mitte / am Ende
             {
-                // Element in der Mitte / am Ende
                 prev->next = current->next;
             }
             free(current);
@@ -102,11 +101,11 @@ int delete(int key)
 
 void print_dictionary()
 {
-    printf("dictionary contents:\n");
+    printf("dictionary_t contents:\n");
     for (int i = 0; i < SIZE; i++)
     {
         printf("Bucket %d: ", i);
-        listNode *current = dict.table[i];
+        listNode_t *current = dict.table[i];
         while (current != NULL)
         {
             printf("%d -> ", current->key);
@@ -209,11 +208,11 @@ void run_interactive(int argc, char *argv[])
 
         if (member(input))
         {
-            printf("Die Zahl %d ist im dictionary enthalten.\n", input);
+            printf("Die Zahl %d ist im dictionary_t enthalten.\n", input);
         }
         else
         {
-            printf("Die Zahl %d ist NICHT im dictionary enthalten.\n", input);
+            printf("Die Zahl %d ist NICHT im dictionary_t enthalten.\n", input);
         }
     }
 }
@@ -223,10 +222,10 @@ void cleanup()
 {
     for (int i = 0; i < SIZE; i++)
     {
-        listNode *current = dict.table[i];
+        listNode_t *current = dict.table[i];
         while (current != NULL)
         {
-            listNode *temp = current;
+            listNode_t *temp = current;
             current = current->next;
             free(temp);
         }
@@ -236,7 +235,7 @@ void cleanup()
 
 int main(int argc, char *argv[])
 {
-    printf("Hash dictionary mit Chaining (SIZE = %d)\n", SIZE);
+    printf("Hash dictionary_t mit Chaining (SIZE = %d)\n", SIZE);
     printf("Hash-Funktion: h(a) = a mod %d\n\n", SIZE);
 
     // Test-Sequenz ausführen
