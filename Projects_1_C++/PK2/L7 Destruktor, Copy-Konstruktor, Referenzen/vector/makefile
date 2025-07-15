@@ -1,9 +1,8 @@
-#main, vector
-main.exe: main.cpp vector.o vector.h
-	g++ main.cpp -o main.exe vector.o vector.h
+main: main.cpp vector.o
+	g++ main.cpp -o main vector.o -std=c++11
 
-vector.o: vector.cpp vector.h
-	g++ vector.cpp -c
+vector.o: vector.cpp
+	g++ vector.cpp -c -std=c++11
 
 clean:
-	rm vector.o swap.exe main.exe swap.o
+	rm main vector.o

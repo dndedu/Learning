@@ -5,4 +5,4 @@ rational.o: rational.cpp
 	g++ rational.cpp -c
 
 clean:
-	rm rational.o main
+	rm main rational.o

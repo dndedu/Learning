@@ -1,5 +1,6 @@
 #include <iostream>
 #include "stack.h"
+using namespace std;
 
 int main()
 {
@@ -20,6 +21,7 @@ int main()
     }
     */
 
+    cout << "Before t = s" << endl;
     pk2::stack t = s;
     std::cout << t.pop() << std::endl;
     std::cout << s.pop() << std::endl;

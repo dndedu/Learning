@@ -5,7 +5,7 @@ pk2::stack::stack() : top{nullptr} {}
 
 pk2::stack::stack(const stack &orig) : stack{}
 {
-    std::cout << "CopyConst" << std::endl;
+    std::cout << "CopyConstructor" << std::endl;
     stack tmp;
 
     element *ptr = orig.top;

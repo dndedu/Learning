@@ -27,5 +27,4 @@ public:
   int push(long key);
   long pop();
 };
-
 #endif

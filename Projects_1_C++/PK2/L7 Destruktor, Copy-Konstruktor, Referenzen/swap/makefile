@@ -1,6 +1,5 @@
-#swap
-swap.exe: swap.cpp
-	g++ swap.cpp -o swap.exe
+main.exe: swap.cpp
+	g++ swap.cpp -o main -std=c++11
 
 clean:
-	rm vector.o swap.exe main.exe swap.o
+	rm main
