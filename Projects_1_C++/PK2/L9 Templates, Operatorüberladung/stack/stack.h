@@ -50,9 +50,9 @@ stack<T>::~stack()
 }
 
 template <typename T>
-int stack<T>::push(T k)
+int stack<T>::push(T key)
 {
-    element *neu = new element{k, top};
+    element *neu = new element{key, top};
     if (neu != nullptr)
     {
         top = neu;
