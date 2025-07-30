@@ -3,14 +3,13 @@ using System;
 
 namespace Praktikum13
 {
-    // Delegate-Definition für das Event, das benachrichtigt, wenn ein Auto hinzugefügt wird
-    // Verwendet die standardmäßige EventHandler-Signatur mit benutzerdefinierten EventArgs
+    // Delegate-Definition für das Event, das benachrichtigt, wenn ein Auto hinzugefügt wird.
+    // Verwendet die standardmäßige EventHandler-Signatur mit benutzerdefinierten EventArgs.
     public delegate void AutoHinzugefuegtEventHandler(object sender, AutoHinzugefuegtEventArgs e);
 
     /// <summary>
-    /// Argumente für das AutoHinzugefuegt-Event.
-    /// (Aufgabe 2)
-    /// </summary>
+    /// (Aufgabe 2) Argumente für das AutoHinzugefuegt-Event.
+    /// /// </summary>
     public class AutoHinzugefuegtEventArgs : EventArgs
     {
         public Auto HinzugefuegtesAuto { get; }
@@ -23,7 +22,7 @@ namespace Praktikum13
 
     /// <summary>
     /// Klasse zur Verwaltung eines Fuhrparks.
-    /// Erweitert um ein Event zur Benachrichtigung bei der Aufnahme neuer Autos (Aufgabe 2).
+    /// (Aufgabe 2) Erweitert um ein Event zur Benachrichtigung bei der Aufnahme neuer Autos.
     /// </summary>
     public class Fuhrpark
     {
@@ -48,9 +47,8 @@ namespace Praktikum13
         #region Events
 
         /// <summary>
-        /// Event, das ausgelöst wird, wenn ein neues Auto in den Fuhrpark aufgenommen wird.
-        /// (Aufgabe 2)
-        /// </summary>
+        /// (Aufgabe 2) Event, das ausgelöst wird, wenn ein neues Auto in den Fuhrpark aufgenommen wird.
+        /// /// </summary>
         public event AutoHinzugefuegtEventHandler AutoHinzugefuegt;
 
         #endregion
@@ -58,7 +56,7 @@ namespace Praktikum13
         #region Konstruktor
 
         /// <summary>
-        /// Konstruktor - erstellt leeren Fuhrpark
+        /// Konstruktor, erstellt leeren Fuhrpark
         /// </summary>
         public Fuhrpark()
         {
@@ -72,14 +70,14 @@ namespace Praktikum13
 
         /// <summary>
         /// Nimmt ein Auto in den Fuhrpark auf.
-        /// Löst das AutoHinzugefuegt-Event aus (Aufgabe 2).
+        /// (Aufgabe 2) Löst das AutoHinzugefuegt-Event aus.
         /// </summary>
         /// <param name="auto">Aufzunehmendes Auto</param>
         public void Aufnehmen(Auto auto)
         {
             if (auto == null)
             {
-                Console.WriteLine("Fehler: Auto darf nicht null sein");
+                Console.WriteLine("Aufnehmen erwartet ein Objekt vom Typ Auto, nicht null");
                 return;
             }
 
@@ -92,8 +90,8 @@ namespace Praktikum13
         }
 
         /// <summary>
-        /// Führt eine Inventur durch - gibt alle Fahrzeugdaten aus
-        /// Verwendet Iterator für die Durchquerung der Liste
+        /// Führt eine Inventur durch, gibt alle Fahrzeugdaten aus
+        /// Verwendet Iterator
         /// </summary>
         public void Inventur()
         {
@@ -109,7 +107,6 @@ namespace Praktikum13
             Console.WriteLine("Fahrzeugdaten:");
             Console.WriteLine(new string('-', 50));
 
-            // Iterator verwenden um durch alle Fahrzeuge zu iterieren
             IIterator<Auto> iterator = fahrzeuge.GetIterator();
             int nummer = 1;
 
@@ -127,15 +124,15 @@ namespace Praktikum13
         /// Berechnet das durchschnittliche Alter der Fahrzeuge
         /// </summary>
         /// <returns>Durchschnittliches Alter als double-Wert</returns>
-        public double BerechneFlottenalter()
+        public double BerechneDurchschnittFlottenalter()
         {
             if (AnzahlFahrzeuge == 0)
             {
-                Console.WriteLine("Keine Fahrzeuge vorhanden - Flottenalter kann nicht berechnet werden");
+                Console.WriteLine("Keine Fahrzeuge vorhanden, Flottenalter kann nicht berechnet werden");
                 return 0.0;
             }
 
-            // Summe aller Fahrzeugalter berechnen
+            // Summe des Alters aller Fahrzeuge berechnen
             int gesamtalter = 0;
             IIterator<Auto> iterator = fahrzeuge.GetIterator();
 
@@ -185,8 +182,7 @@ namespace Praktikum13
 
         /// <summary>
         /// Methode zum Auslösen des AutoHinzugefuegt-Events.
-        /// Eine Konvention für Events.
-        /// </summary>
+        /// /// </summary>
         /// <param name="e">Die Event-Argumente mit dem hinzugefügten Auto.</param>
         protected virtual void OnAutoHinzugefuegt(AutoHinzugefuegtEventArgs e)
         {
@@ -198,16 +194,13 @@ namespace Praktikum13
     }
 
     /// <summary>
-    /// Klasse Info, die das AutoHinzugefuegt-Event des Fuhrparks abonniert
-    /// und die Daten jedes neu aufgenommenen Autos ausgibt.
-    /// (Aufgabe 2)
+    /// (Aufgabe 2) Klasse Info, die das AutoHinzugefuegt-Event des Fuhrparks abonniert und die Daten jedes neu aufgenommenen Autos ausgibt.
     /// </summary>
     public class Info
     {
         /// <summary>
-        /// Event-Handler-Methode, die aufgerufen wird, wenn ein Auto zum Fuhrpark hinzugefügt wird.
-        /// (Aufgabe 2)
-        /// </summary>
+        /// (Aufgabe 2) Event-Handler-Methode, die aufgerufen wird, wenn ein Auto zum Fuhrpark hinzugefügt wird.
+        /// /// </summary>
         /// <param name="sender">Das Objekt, das das Event ausgelöst hat (hier der Fuhrpark).</param>
         /// <param name="e">Die Event-Argumente, die das hinzugefügte Auto enthalten.</param>
         public void AutoAufgenommenHandler(object sender, AutoHinzugefuegtEventArgs e)

@@ -5,7 +5,7 @@ namespace Praktikum13
 {
     /// <summary>
     /// Generische einfach verkettete Liste.
-    /// Ergänzt um Count Property und Indexer (Aufgabe 1).
+    /// Ergänzt um Property Count und Indexer (Aufgabe 1).
     /// </summary>
     /// <typeparam name="T">Typ der zu speichernden Elemente</typeparam>
     public class LinkedList<T>
@@ -90,8 +90,7 @@ namespace Praktikum13
         }
 
         /// <summary>
-        /// Indexer für den Zugriff auf Elemente der Liste.
-        /// (Aufgabe 1)
+        /// (Aufgabe 1) Indexer für den Zugriff auf Elemente der Liste.
         /// </summary>
         /// <param name="index">Der 0-basierte Index des Elements.</param>
         /// <returns>Das Element am angegebenen Index.</returns>
@@ -115,8 +114,7 @@ namespace Praktikum13
             }
             set
             {
-                // Die set-Operation des Indexers ist nur für den Index 'Count' gültig,
-                // um Elemente am Ende der Liste hinzuzufügen. (Aufgabe 1)
+                // Die set-Operation des Indexers ist nur für den Index 'Count' gültig, um Elemente am Ende der Liste hinzuzufügen. (Aufgabe 1)
                 if (index != count)
                 {
                     throw new IndexOutOfRangeException($"Set-Operation ist nur für Index 'Count' ({count}) erlaubt. Ungültiger Index: {index}.");
@@ -132,7 +130,7 @@ namespace Praktikum13
         #region Konstruktor
 
         /// <summary>
-        /// Konstruktor - erstellt leere Liste
+        /// Konstruktor, erstellt leere Liste
         /// </summary>
         public LinkedList()
         {
@@ -152,7 +150,6 @@ namespace Praktikum13
         {
             ListNode newNode = new ListNode(item);
 
-            // Falls Liste leer ist, wird neuer Knoten zum head
             if (head == null)
             {
                 head = newNode;
@@ -222,7 +219,7 @@ namespace Praktikum13
 
         /// <summary>
         /// Gibt alle Elemente der Liste auf der Konsole aus
-        /// Verwendet den Iterator für die Durchquerung
+        /// Verwendet den Iterator
         /// </summary>
         public void PrintAll()
         {

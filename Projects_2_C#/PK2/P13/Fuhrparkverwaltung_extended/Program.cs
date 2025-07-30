@@ -10,15 +10,12 @@ namespace Praktikum13
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("=== Praktikum 13 - C# Implementation ===\n");
+            Console.WriteLine("=== Praktikum 13, C# Implementation ===\n");
 
-            // Test der erweiterten LinkedList Klasse
             TestLinkedListErweitert();
 
-            // Test der Fuhrpark Klasse mit Event
             TestFuhrparkMitEvent();
 
-            // Test der Rational Klasse
             TestRationalKlasse();
 
             Console.WriteLine("\nProgramm beendet. Drücken Sie eine beliebige Taste...");
@@ -26,8 +23,7 @@ namespace Praktikum13
         }
 
         /// <summary>
-        /// Testet die erweiterte LinkedList Implementierung mit Count Property und Indexer.
-        /// (Aufgabe 1)
+        /// Aufgabe 1, Testet die erweiterte LinkedList Implementierung mit Count Property und Indexer.
         /// </summary>
         static void TestLinkedListErweitert()
         {
@@ -35,16 +31,13 @@ namespace Praktikum13
 
             LinkedList<Auto> liste = new LinkedList<Auto>();
 
-            // Hinzufügen von Elementen über den Indexer an der Position Count
-            Console.WriteLine("Füge Autos hinzu über Indexer:");
+            Console.WriteLine("Füge Autos über Indexer an Position Count hinzu:");
             liste[liste.Count] = new Auto("Audi", 2021);
             Console.WriteLine($"Hinzugefügt: {liste[liste.Count - 1]}");
             liste[liste.Count] = new Auto("Tesla", 2021);
             Console.WriteLine($"Hinzugefügt: {liste[liste.Count - 1]}");
-
             Console.WriteLine($"Anzahl Elemente in der Liste: {liste.Count}");
 
-            // Ausgabe aller Elemente mit dem Indexer
             Console.WriteLine("\nAusgabe der Liste mittels Indexer:");
             for (int i = 0; i < liste.Count; i++)
             {
@@ -54,61 +47,60 @@ namespace Praktikum13
             // Test der Bereichsüberschreitung für den Indexer
             try
             {
-                Console.WriteLine("\nVersuche, auf ungültigen Index zuzugreifen (liste[10]):");
-                var dummy = liste[10]; // Sollte IndexOutOfRangeException werfen
+                Console.WriteLine("\nVersuche, auf ungültigen Index zuzugreifen (liste[liste.Count+1]):");
+                var dummy = liste[liste.Count + 1];
             }
-            catch (IndexOutOfRangeException ex)
+            catch (IndexOutOfRangeException ioorexc)
             {
-                Console.WriteLine($"Fehler erwartet: {ex.Message}");
+                Console.WriteLine($"IndexOutOfRangeException aufgrund Zugriffs auf ungültigen Index liste[liste.Count+1] erwartet: {ioorexc.Message}");
             }
 
             try
             {
                 Console.WriteLine("Versuche, an falscher Stelle mit dem Indexer zu setzen (liste[0] = ...):");
-                liste[0] = new Auto("Fehlerauto", 2000); // Sollte IndexOutOfRangeException werfen
+                liste[0] = new Auto("Fehlerauto", 2000);
             }
-            catch (IndexOutOfRangeException ex)
+            catch (IndexOutOfRangeException ioorexc)
             {
-                Console.WriteLine($"Fehler erwartet: {ex.Message}");
+                Console.WriteLine($"IndexOutOfRangeException aufgrund Zugriffs auf ungültigen Index liste[0] = ... erwartet: {ioorexc.Message}");
             }
             Console.WriteLine();
         }
 
         /// <summary>
-        /// Testet die Fuhrpark Klasse mit dem implementierten Event.
-        /// (Aufgabe 2)
+        /// Aufgabe 2, Testet die Fuhrpark Klasse mit dem implementierten Event.
         /// </summary>
         static void TestFuhrparkMitEvent()
         {
             Console.WriteLine("=== Test Fuhrpark mit Event ===");
 
             Fuhrpark fuhrpark = new Fuhrpark();
-
-            // Erstellen einer Instanz der Info-Klasse
             Info infoAnzeige = new Info();
             // Registrieren der Methode der Info-Klasse für das AutoHinzugefuegt-Event
             fuhrpark.AutoHinzugefuegt += infoAnzeige.AutoAufgenommenHandler;
 
             Console.WriteLine("\nFüge Fahrzeuge zum Fuhrpark hinzu:");
-            fuhrpark.Aufnehmen(new Auto("Volkswagen", 2019));
-            fuhrpark.Aufnehmen(new Auto("Audi", 2021));
-            fuhrpark.Aufnehmen(new Auto("BMW", 2017));
+            fuhrpark.Aufnehmen(new Auto("BMW", 2022));
+            fuhrpark.Aufnehmen(new Auto("Ford", 2022));
+            fuhrpark.Aufnehmen(new Auto("Mercedes", 2022));
 
             // Inventur zur Überprüfung
             fuhrpark.Inventur();
 
-            // Deregistrieren des Events (optional, zur Demonstration)
+            // Deregistrieren des Events zur Demonstration
             fuhrpark.AutoHinzugefuegt -= infoAnzeige.AutoAufgenommenHandler;
             Console.WriteLine("\nInfo-Anzeige vom Fuhrpark-Event abgemeldet.");
-            fuhrpark.Aufnehmen(new Auto("Mercedes", 2020)); // Dieses Auto sollte nicht von Info.AutoAufgenommenHandler verarbeitet werden
+            fuhrpark.Aufnehmen(new Auto("Mitsubishi", 2022));
             Console.WriteLine("Ein weiteres Auto wurde hinzugefügt, aber Info-Klasse ist abgemeldet.");
+
+            // Durchschnittsalter der Fahrzeugflotte
+            fuhrpark.BerechneDurchschnittFlottenalter();
 
             Console.WriteLine();
         }
 
         /// <summary>
-        /// Testet die Implementierung der Rational Klasse.
-        /// (Aufgabe 3)
+        /// Aufgabe 3, Testet die Implementierung der Klasse Rational
         /// </summary>
         static void TestRationalKlasse()
         {
@@ -119,33 +111,17 @@ namespace Praktikum13
 
             Rational c = a * b;
 
-            Console.WriteLine($"{a} * {b} = {c}");
+            Console.WriteLine($"{a} * {b} = {c}\n");
             // Erwartete Ausgabe: (2/4)*(9/5)=(18/20)
-
-            // Weitere Tests
-            Rational r1 = new Rational(1, 2);
-            Rational r2 = new Rational(3, 4);
-            Rational r3 = r1 * r2;
-            Console.WriteLine($"{r1} * {r2} = {r3}"); // (1/2)*(3/4)=(3/8)
-
-            Rational r4 = new Rational(5, 1); // Ganze Zahl 5/1
-            Rational r5 = new Rational(2, 3);
-            Rational r6 = r4 * r5;
-            Console.WriteLine($"{r4} * {r5} = {r6}"); // (5/1)*(2/3)=(10/3)
-
-            Rational r7 = new Rational(0, 5); // Sollte 0/5 sein
-            Rational r8 = new Rational(10, 2);
-            Rational r9 = r7 * r8;
-            Console.WriteLine($"{r7} * {r8} = {r9}"); // (0/5)*(10/2)=(0/10)
 
             try
             {
-                Console.WriteLine("\nVersuche, Rational mit Nenner 0 zu erstellen:");
+                Console.WriteLine("Versuche, Rational mit Nenner 0 zu erstellen:");
                 Rational rFehler = new Rational(1, 0);
             }
-            catch (ArgumentException ex)
+            catch (ArgumentException aexc)
             {
-                Console.WriteLine($"Fehler erwartet: {ex.Message}");
+                Console.WriteLine($"ArgumentException erwartet aufgrund der Erstellung eines Bruches mit dem Nenner 0: {aexc.Message}\n");
             }
 
             Console.WriteLine();

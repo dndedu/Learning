@@ -36,12 +36,13 @@ namespace Praktikum13
         /// <summary>
         /// Automatische Eigenschaft für Baujahr
         /// Compiler erstellt automatisch Backing Field
+        /// TODO Baujahr bei bekanntem Fabrikat nach Herstellungszeiten orientieren (von, [bis])
         /// </summary>
         public int Baujahr { get; set; }
 
         /// <summary>
         /// Berechnete Eigenschaft für das Alter des Fahrzeugs
-        /// Nur Getter, da sich aus dem Baujahr errechnet
+        /// Nur Getter, da sich das Ergebnis aus dem vorhandenen Baujahr errechnet
         /// </summary>
         public int Alter
         {
@@ -89,7 +90,7 @@ namespace Praktikum13
         /// Überschreibt Equals für Vergleich von Auto-Objekten
         /// </summary>
         /// <param name="obj">Zu vergleichendes Objekt</param>
-        /// <returns>true wenn gleich, sonst false</returns>
+        /// <returns>true wenn gleich, ansonsten false</returns>
         public override bool Equals(object? obj)
         {
             if (obj is Auto other)

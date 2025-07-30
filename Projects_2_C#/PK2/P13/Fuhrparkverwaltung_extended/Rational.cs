@@ -4,8 +4,7 @@ using System;
 namespace Praktikum13
 {
     /// <summary>
-    /// Klasse Rational zur Darstellung und Multiplikation rationaler Zahlen.
-    /// (Aufgabe 3)
+    /// (Aufgabe 3) Klasse Rational zur Darstellung und Multiplikation rationaler Zahlen.
     /// </summary>
     public class Rational
     {

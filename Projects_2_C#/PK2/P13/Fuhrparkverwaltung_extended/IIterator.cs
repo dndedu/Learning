@@ -11,9 +11,9 @@ namespace Praktikum13
     public interface IIterator<T>
     {
         /// <summary>
-        /// Prüft ob noch weitere Elemente vorhanden sind
+        /// Prüft ob zumindest ein weiteres Element vorhanden ist
         /// </summary>
-        /// <returns>true wenn weitere Elemente vorhanden, sonst false</returns>
+        /// <returns>true wenn vorhanden, ansonsten false</returns>
         bool HasNext();
 
         /// <summary>
