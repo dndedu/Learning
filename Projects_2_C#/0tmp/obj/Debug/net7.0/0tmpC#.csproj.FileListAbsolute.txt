@@ -1,5 +1,0 @@
-H:\0.1Workspace\VisualStudioCode\Learning\Projects_2_C#\0tmp\obj\Debug\net7.0\0tmpC#.csproj.AssemblyReference.cache
-H:\0.1Workspace\VisualStudioCode\Learning\Projects_2_C#\0tmp\obj\Debug\net7.0\0tmpC#.GeneratedMSBuildEditorConfig.editorconfig
-H:\0.1Workspace\VisualStudioCode\Learning\Projects_2_C#\0tmp\obj\Debug\net7.0\0tmpC#.AssemblyInfoInputs.cache
-H:\0.1Workspace\VisualStudioCode\Learning\Projects_2_C#\0tmp\obj\Debug\net7.0\0tmpC#.AssemblyInfo.cs
-H:\0.1Workspace\VisualStudioCode\Learning\Projects_2_C#\0tmp\obj\Debug\net7.0\0tmpC#.csproj.CoreCompileInputs.cache
